@@ -1,12 +1,14 @@
-{% extends 'bootstrap/base.html' %}
-
-{% block title %}Add Book{% endblock %}
-
-{% block content %}
-<div class="container px-4 px-lg-5">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Book</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+<!--<div class="container">-->
     <h1>Add a new book into your library</h1>
 
-<!-- This is where your WTForm will go -->
     <form action="{{ url_for("add") }}" method="POST">
         <label>Book Name</label>
         <input name="title" type="text">
@@ -19,5 +21,7 @@
     </form>
 
     <p class="space-above"><a href="{{url_for('home')}}">See all the books in your library.</a></p>
-</div>
-{% endblock %}
+<!--</div>-->
+
+</body>
+</html>
