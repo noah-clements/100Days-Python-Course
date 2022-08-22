@@ -1,0 +1,12 @@
+.DS_Store
+*.zip
+/birthday-wisher-extrahard-start
+/blog-data.txt
+bootstrap*
+
+html5up*
+*.log
+*.pyc
+issoverhead/config.py
+.project_config
+.python_config

@@ -1,0 +1,16 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+#HttpOnly_.amazon.com	TRUE	/	TRUE	1677181810	at-main	Atza|IwEBIPVgm68RGygk7KRREGYTgFrmTuVKXDTbKiptOspBtTQNTbd5p8N0B0jH4ub6pKJDAM3pCaWuzUQAcsanJk31_-BbHxuDyD3WoenphZyc6QVzuwe-iDnv-cs-0xsn4Kbsquwk__zHXCquYiSzT7GsxIMU2sYG7m8I_zCYK2SMlZBnWBUc6om3V6Ut8b2-ndQkrFyl6jB0W67B77fCShOZsWVV
+#HttpOnly_.amazon.com	TRUE	/	TRUE	1677181810	sess-at-main	"MLOhFoLBFOmfTSGeShgmkNYeI1p3l0RfBOY6i2UYddg="
+#HttpOnly_.amazon.com	TRUE	/	TRUE	1677181810	sst-main	Sst1|PQH3L_90FTcgcJHNvgbVIh-KCUIhLujRrfEy3nuLwG6Xr8J3ANy1Vj7rdv_ppGzrFo4fGRtGP4V3jfE0oy1tvqPZSuhqT3t3Cfy8-CjoYZnCP-6SzQAyxfrxTEzqtmcp_OyKENUqV_etKBKbKg1gbIXNNeeqkBSBKknYTyl5PDiNMS5o2esrdvzcXlDDb6J6azMUBcI0iwvuPriYQgFEn4lT4htDX8LbF53ELkFHT9rT6WEWPpM-hTxAZheQ0SAuf1AleKjGYCNmaOym3ffh12qh_gLpv5-QoQdTKmiu0LOl1XU
+.amazon.com	TRUE	/	TRUE	1677181811	x-main	Uhqex2WPG5sK1gTdUxZoMS23Sa0qMcWb
+.amazon.com	TRUE	/	FALSE	1677181811	i18n-prefs	USD
+.amazon.com	TRUE	/	TRUE	2082787201	lc-main	en_US
+.amazon.com	TRUE	/	FALSE	0	skin	noskin
+.amazon.com	TRUE	/	FALSE	2082787201	session-token	"YMBJNrpih/2tT7jp1Pu2GSpC8B16LtB9R8rZnAuPkx4TQFkrKU6KLVMWVDwO5AOeJmzUnpdGnsDhzo9kXI3adrrP2Qim1s/nC6KOM1S7TDJldSa07CgYxb47PgPCSgHqEEI/9im8z0QODK1YeM/8JP1/2bWZeWh3+ajgVJPUEq/FMWwNwMP3xjDXbUMUkDgdM8fsZF4rwHF0W+tC7RfcZRlLwq/C4d6gK0ftkSSPW/KTMLssLMs9yg=="
+.amazon.com	TRUE	/	TRUE	1691209889	ubid-main	132-8002997-8316761
+.amazon.com	TRUE	/	FALSE	1691209889	session-id-time	2082787201l
+.amazon.com	TRUE	/	TRUE	1691209889	session-id	145-7508590-3308968
+smile.amazon.com	FALSE	/	FALSE	1689916309	csm-hit	tb:VMP7SAPKY9Y5N73RN8KT+s-CMYDBJMQG7EBM50M82PM|1659676309734&t:1659676309734&adb:adblk_yes

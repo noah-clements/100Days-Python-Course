@@ -1,0 +1,1915 @@
+[1660114207.855][INFO]: Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 52726
+[1660114207.855][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1660114208.067][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1660114208.071][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1660114208.071][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1660114208.072][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/71/05mdf8f15vl39cb2qrtk3rjh0000gn/T/.com.google.Chrome.m6txqi data:,
+[1660114209.966][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1660114210.568][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "104.0.5112.79",
+      "chrome": {
+         "chromedriverVersion": "104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307})",
+         "userDataDir": "/var/folders/71/05mdf8f15vl39cb2qrtk3rjh0000gn/T/.com.google.Chrome.m6txqi"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52737"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "2a4d1b4a44abca12a80dca08bc73c351"
+}
+[1660114210.570][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114210.570][INFO]: Waiting for pending navigations...
+[1660114210.571][INFO]: Done waiting for pending navigations. Status: ok
+[1660114210.884][INFO]: Waiting for pending navigations...
+[1660114211.237][INFO]: Done waiting for pending navigations. Status: ok
+[1660114211.256][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114213.257][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114213.257][INFO]: Waiting for pending navigations...
+[1660114216.117][INFO]: Done waiting for pending navigations. Status: ok
+[1660114216.235][INFO]: Waiting for pending navigations...
+[1660114216.360][INFO]: Done waiting for pending navigations. Status: ok
+[1660114216.360][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "c8184500-9cef-449a-9b97-fa031251ee2d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "44f79a57-a42a-45cd-9ef2-6bfd1ce348ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "32b1fd93-4d57-4615-ac7b-6acf8d85f301"
+} ]
+[1660114216.361][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "c8184500-9cef-449a-9b97-fa031251ee2d",
+   "text": "1 Ocean Drive UNIT 5-C, Dennis Port, MA 02639",
+   "value": [ "1", " ", "O", "c", "e", "a", "n", " ", "D", "r", "i", "v", "e", " ", "U", "N", "I", "T", " ", "5", "-", "C", ",", " ", "D", "e", "n", "n", "i", "s", " ", "P", "o", "r", "t", ",", " ", "M", "A", " ", "0", "2", "6", "3", "9" ]
+}
+[1660114216.361][INFO]: Waiting for pending navigations...
+[1660114216.362][INFO]: Done waiting for pending navigations. Status: ok
+[1660114217.438][INFO]: Waiting for pending navigations...
+[1660114217.504][INFO]: Done waiting for pending navigations. Status: ok
+[1660114217.504][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114217.505][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "44f79a57-a42a-45cd-9ef2-6bfd1ce348ce",
+   "text": "$299,000",
+   "value": [ "$", "2", "9", "9", ",", "0", "0", "0" ]
+}
+[1660114217.505][INFO]: Waiting for pending navigations...
+[1660114217.533][INFO]: Done waiting for pending navigations. Status: ok
+[1660114217.960][INFO]: Waiting for pending navigations...
+[1660114217.972][INFO]: Done waiting for pending navigations. Status: ok
+[1660114217.972][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114217.973][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "32b1fd93-4d57-4615-ac7b-6acf8d85f301",
+   "text": "https://www.zillow.com/homedetails/1-Ocean-Dr-5-C-Dennis-Pt-MA-02639/2063002632_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "1", "-", "O", "c", "e", "a", "n", "-", "D", "r", "-", "5", "-", "C", "-", "D", "e", "n", "n", "i", "s", "-", "P", "t", "-", "M", "A", "-", "0", "2", "6", "3", "9", "/", "2", "0", "6", "3", "0", "0", "2", "6", "3", "2", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114217.973][INFO]: Waiting for pending navigations...
+[1660114217.973][INFO]: Done waiting for pending navigations. Status: ok
+[1660114219.959][INFO]: Waiting for pending navigations...
+[1660114220.342][INFO]: Done waiting for pending navigations. Status: ok
+[1660114220.342][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114220.343][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114220.343][INFO]: Waiting for pending navigations...
+[1660114220.350][INFO]: Done waiting for pending navigations. Status: ok
+[1660114220.637][INFO]: Waiting for pending navigations...
+[1660114220.672][INFO]: Done waiting for pending navigations. Status: ok
+[1660114220.672][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f875c5ab-88f4-4cfd-a117-624104760f3f"
+}
+[1660114220.673][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "f875c5ab-88f4-4cfd-a117-624104760f3f"
+}
+[1660114220.673][INFO]: Waiting for pending navigations...
+[1660114220.676][INFO]: Done waiting for pending navigations. Status: ok
+[1660114220.986][INFO]: Waiting for pending navigations...
+[1660114222.067][INFO]: Done waiting for pending navigations. Status: ok
+[1660114222.067][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114222.068][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114222.068][INFO]: Waiting for pending navigations...
+[1660114222.068][INFO]: Done waiting for pending navigations. Status: ok
+[1660114222.309][INFO]: Waiting for pending navigations...
+[1660114222.677][INFO]: Done waiting for pending navigations. Status: ok
+[1660114222.677][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114224.682][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114224.682][INFO]: Waiting for pending navigations...
+[1660114227.241][INFO]: Done waiting for pending navigations. Status: ok
+[1660114227.383][INFO]: Waiting for pending navigations...
+[1660114227.416][INFO]: Done waiting for pending navigations. Status: ok
+[1660114227.416][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "49991d75-ba5b-430a-827a-248a8cae0887"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f39b3228-a8dd-4e8e-a5f6-3c1d6f86ffeb"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0a0da37f-09b5-4f04-9fc7-1f2fa9611fed"
+} ]
+[1660114227.417][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "49991d75-ba5b-430a-827a-248a8cae0887",
+   "text": "110 Dillingham Avenue UNIT 211U, Falmouth, MA 02540",
+   "value": [ "1", "1", "0", " ", "D", "i", "l", "l", "i", "n", "g", "h", "a", "m", " ", "A", "v", "e", "n", "u", "e", " ", "U", "N", "I", "T", " ", "2", "1", "1", "U", ",", " ", "F", "a", "l", "m", "o", "u", "t", "h", ",", " ", "M", "A", " ", "0", "2", "5", "4", "0" ]
+}
+[1660114227.417][INFO]: Waiting for pending navigations...
+[1660114227.417][INFO]: Done waiting for pending navigations. Status: ok
+[1660114228.342][INFO]: Waiting for pending navigations...
+[1660114228.383][INFO]: Done waiting for pending navigations. Status: ok
+[1660114228.383][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114228.384][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "f39b3228-a8dd-4e8e-a5f6-3c1d6f86ffeb",
+   "text": "$242,100",
+   "value": [ "$", "2", "4", "2", ",", "1", "0", "0" ]
+}
+[1660114228.384][INFO]: Waiting for pending navigations...
+[1660114228.454][INFO]: Done waiting for pending navigations. Status: ok
+[1660114228.840][INFO]: Waiting for pending navigations...
+[1660114228.841][INFO]: Done waiting for pending navigations. Status: ok
+[1660114228.841][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114228.842][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "0a0da37f-09b5-4f04-9fc7-1f2fa9611fed",
+   "text": "https://www.zillow.com/homedetails/110-Dillingham-Ave-211U-Falmouth-MA-02540/2064136188_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "1", "1", "0", "-", "D", "i", "l", "l", "i", "n", "g", "h", "a", "m", "-", "A", "v", "e", "-", "2", "1", "1", "U", "-", "F", "a", "l", "m", "o", "u", "t", "h", "-", "M", "A", "-", "0", "2", "5", "4", "0", "/", "2", "0", "6", "4", "1", "3", "6", "1", "8", "8", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114228.842][INFO]: Waiting for pending navigations...
+[1660114228.843][INFO]: Done waiting for pending navigations. Status: ok
+[1660114230.323][INFO]: Waiting for pending navigations...
+[1660114230.576][INFO]: Done waiting for pending navigations. Status: ok
+[1660114230.576][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114230.577][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114230.577][INFO]: Waiting for pending navigations...
+[1660114231.391][INFO]: Done waiting for pending navigations. Status: ok
+[1660114231.692][INFO]: Waiting for pending navigations...
+[1660114231.719][INFO]: Done waiting for pending navigations. Status: ok
+[1660114231.719][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4699343d-a782-4ce4-b71d-74e6e121a109"
+}
+[1660114231.720][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "4699343d-a782-4ce4-b71d-74e6e121a109"
+}
+[1660114231.720][INFO]: Waiting for pending navigations...
+[1660114231.723][INFO]: Done waiting for pending navigations. Status: ok
+[1660114232.335][INFO]: Waiting for pending navigations...
+[1660114232.895][INFO]: Done waiting for pending navigations. Status: ok
+[1660114232.895][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114232.896][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114232.896][INFO]: Waiting for pending navigations...
+[1660114232.897][INFO]: Done waiting for pending navigations. Status: ok
+[1660114233.126][INFO]: Waiting for pending navigations...
+[1660114233.491][INFO]: Done waiting for pending navigations. Status: ok
+[1660114233.491][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114235.497][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114235.497][INFO]: Waiting for pending navigations...
+[1660114237.883][INFO]: Done waiting for pending navigations. Status: ok
+[1660114238.006][INFO]: Waiting for pending navigations...
+[1660114238.013][INFO]: Done waiting for pending navigations. Status: ok
+[1660114238.013][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "14b75885-9886-4868-99b5-d802ca28901b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b99b5579-9ec1-4adc-a422-e640cf6ab856"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0a0fc9a7-6732-45ba-9262-862a9b20e755"
+} ]
+[1660114238.014][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "14b75885-9886-4868-99b5-d802ca28901b",
+   "text": "247 Main Street UNIT 4, Hyannis, MA 02601",
+   "value": [ "2", "4", "7", " ", "M", "a", "i", "n", " ", "S", "t", "r", "e", "e", "t", " ", "U", "N", "I", "T", " ", "4", ",", " ", "H", "y", "a", "n", "n", "i", "s", ",", " ", "M", "A", " ", "0", "2", "6", "0", "1" ]
+}
+[1660114238.014][INFO]: Waiting for pending navigations...
+[1660114238.044][INFO]: Done waiting for pending navigations. Status: ok
+[1660114238.957][INFO]: Waiting for pending navigations...
+[1660114238.969][INFO]: Done waiting for pending navigations. Status: ok
+[1660114238.969][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114238.970][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "b99b5579-9ec1-4adc-a422-e640cf6ab856",
+   "text": "$240,000",
+   "value": [ "$", "2", "4", "0", ",", "0", "0", "0" ]
+}
+[1660114238.970][INFO]: Waiting for pending navigations...
+[1660114238.989][INFO]: Done waiting for pending navigations. Status: ok
+[1660114239.417][INFO]: Waiting for pending navigations...
+[1660114239.500][INFO]: Done waiting for pending navigations. Status: ok
+[1660114239.501][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114239.502][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "0a0fc9a7-6732-45ba-9262-862a9b20e755",
+   "text": "https://www.zillow.com/homedetails/247-Main-St-4-Hyannis-MA-02601/55850190_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "2", "4", "7", "-", "M", "a", "i", "n", "-", "S", "t", "-", "4", "-", "H", "y", "a", "n", "n", "i", "s", "-", "M", "A", "-", "0", "2", "6", "0", "1", "/", "5", "5", "8", "5", "0", "1", "9", "0", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114239.502][INFO]: Waiting for pending navigations...
+[1660114239.502][INFO]: Done waiting for pending navigations. Status: ok
+[1660114240.850][INFO]: Waiting for pending navigations...
+[1660114240.855][INFO]: Done waiting for pending navigations. Status: ok
+[1660114240.855][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114240.856][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114240.856][INFO]: Waiting for pending navigations...
+[1660114240.857][INFO]: Done waiting for pending navigations. Status: ok
+[1660114240.964][INFO]: Waiting for pending navigations...
+[1660114240.965][INFO]: Done waiting for pending navigations. Status: ok
+[1660114240.965][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "96c8cbef-0b6e-4dc8-8dc9-041b3cdfc6fc"
+}
+[1660114240.966][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "96c8cbef-0b6e-4dc8-8dc9-041b3cdfc6fc"
+}
+[1660114240.966][INFO]: Waiting for pending navigations...
+[1660114240.967][INFO]: Done waiting for pending navigations. Status: ok
+[1660114242.829][INFO]: Waiting for pending navigations...
+[1660114243.923][INFO]: Done waiting for pending navigations. Status: ok
+[1660114243.923][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114243.924][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114243.924][INFO]: Waiting for pending navigations...
+[1660114243.924][INFO]: Done waiting for pending navigations. Status: ok
+[1660114244.150][INFO]: Waiting for pending navigations...
+[1660114244.510][INFO]: Done waiting for pending navigations. Status: ok
+[1660114244.510][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114246.516][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114246.516][INFO]: Waiting for pending navigations...
+[1660114248.746][INFO]: Done waiting for pending navigations. Status: ok
+[1660114248.870][INFO]: Waiting for pending navigations...
+[1660114248.877][INFO]: Done waiting for pending navigations. Status: ok
+[1660114248.877][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "a85599d7-f843-42ab-8091-6244fe64b8b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8692899b-1ce8-46b3-bbe3-d80df3053eb2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "80e57b0d-18be-4b0f-8638-63717ab5e3fb"
+} ]
+[1660114248.878][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "a85599d7-f843-42ab-8091-6244fe64b8b8",
+   "text": "60 Broadway UNIT 4, West Yarmouth, MA 02673",
+   "value": [ "6", "0", " ", "B", "r", "o", "a", "d", "w", "a", "y", " ", "U", "N", "I", "T", " ", "4", ",", " ", "W", "e", "s", "t", " ", "Y", "a", "r", "m", "o", "u", "t", "h", ",", " ", "M", "A", " ", "0", "2", "6", "7", "3" ]
+}
+[1660114248.878][INFO]: Waiting for pending navigations...
+[1660114248.904][INFO]: Done waiting for pending navigations. Status: ok
+[1660114249.800][INFO]: Waiting for pending navigations...
+[1660114249.823][INFO]: Done waiting for pending navigations. Status: ok
+[1660114249.823][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114249.824][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "8692899b-1ce8-46b3-bbe3-d80df3053eb2",
+   "text": "$279,900",
+   "value": [ "$", "2", "7", "9", ",", "9", "0", "0" ]
+}
+[1660114249.824][INFO]: Waiting for pending navigations...
+[1660114249.838][INFO]: Done waiting for pending navigations. Status: ok
+[1660114250.347][INFO]: Waiting for pending navigations...
+[1660114250.394][INFO]: Done waiting for pending navigations. Status: ok
+[1660114250.394][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114250.395][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "80e57b0d-18be-4b0f-8638-63717ab5e3fb",
+   "text": "https://www.zillow.com/homedetails/60-Broadway-St-4-West-Yarmouth-MA-02673/82166702_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "6", "0", "-", "B", "r", "o", "a", "d", "w", "a", "y", "-", "S", "t", "-", "4", "-", "W", "e", "s", "t", "-", "Y", "a", "r", "m", "o", "u", "t", "h", "-", "M", "A", "-", "0", "2", "6", "7", "3", "/", "8", "2", "1", "6", "6", "7", "0", "2", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114250.395][INFO]: Waiting for pending navigations...
+[1660114250.395][INFO]: Done waiting for pending navigations. Status: ok
+[1660114251.754][INFO]: Waiting for pending navigations...
+[1660114251.804][INFO]: Done waiting for pending navigations. Status: ok
+[1660114251.804][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114251.805][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114251.805][INFO]: Waiting for pending navigations...
+[1660114251.810][INFO]: Done waiting for pending navigations. Status: ok
+[1660114251.822][INFO]: Waiting for pending navigations...
+[1660114251.822][INFO]: Done waiting for pending navigations. Status: ok
+[1660114251.822][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "32e8f582-1f5b-4fee-af5d-e94078679ae1"
+}
+[1660114251.823][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "32e8f582-1f5b-4fee-af5d-e94078679ae1"
+}
+[1660114251.823][INFO]: Waiting for pending navigations...
+[1660114251.823][INFO]: Done waiting for pending navigations. Status: ok
+[1660114252.353][INFO]: Waiting for pending navigations...
+[1660114254.498][INFO]: Done waiting for pending navigations. Status: ok
+[1660114254.498][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114254.499][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114254.499][INFO]: Waiting for pending navigations...
+[1660114254.499][INFO]: Done waiting for pending navigations. Status: ok
+[1660114254.701][INFO]: Waiting for pending navigations...
+[1660114255.025][INFO]: Done waiting for pending navigations. Status: ok
+[1660114255.025][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114257.031][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114257.031][INFO]: Waiting for pending navigations...
+[1660114259.436][INFO]: Done waiting for pending navigations. Status: ok
+[1660114259.564][INFO]: Waiting for pending navigations...
+[1660114259.571][INFO]: Done waiting for pending navigations. Status: ok
+[1660114259.571][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "a2769518-e05a-4d1e-b53e-30104d56ca2e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7e102033-97e2-45d9-94f5-309e8c40740f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66acb943-2912-4d85-a1c3-ea7478209865"
+} ]
+[1660114259.572][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "a2769518-e05a-4d1e-b53e-30104d56ca2e",
+   "text": "825 West Main Street UNIT 21, Hyannis, MA 02601",
+   "value": [ "8", "2", "5", " ", "W", "e", "s", "t", " ", "M", "a", "i", "n", " ", "S", "t", "r", "e", "e", "t", " ", "U", "N", "I", "T", " ", "2", "1", ",", " ", "H", "y", "a", "n", "n", "i", "s", ",", " ", "M", "A", " ", "0", "2", "6", "0", "1" ]
+}
+[1660114259.572][INFO]: Waiting for pending navigations...
+[1660114259.601][INFO]: Done waiting for pending navigations. Status: ok
+[1660114260.473][INFO]: Waiting for pending navigations...
+[1660114260.486][INFO]: Done waiting for pending navigations. Status: ok
+[1660114260.486][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114260.487][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "7e102033-97e2-45d9-94f5-309e8c40740f",
+   "text": "$287,000",
+   "value": [ "$", "2", "8", "7", ",", "0", "0", "0" ]
+}
+[1660114260.487][INFO]: Waiting for pending navigations...
+[1660114260.500][INFO]: Done waiting for pending navigations. Status: ok
+[1660114261.070][INFO]: Waiting for pending navigations...
+[1660114261.074][INFO]: Done waiting for pending navigations. Status: ok
+[1660114261.074][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114261.075][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "66acb943-2912-4d85-a1c3-ea7478209865",
+   "text": "https://www.zillow.com/homedetails/825-W-Main-St-APT-21-Hyannis-MA-02601/55844630_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "8", "2", "5", "-", "W", "-", "M", "a", "i", "n", "-", "S", "t", "-", "A", "P", "T", "-", "2", "1", "-", "H", "y", "a", "n", "n", "i", "s", "-", "M", "A", "-", "0", "2", "6", "0", "1", "/", "5", "5", "8", "4", "4", "6", "3", "0", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114261.075][INFO]: Waiting for pending navigations...
+[1660114261.076][INFO]: Done waiting for pending navigations. Status: ok
+[1660114262.405][INFO]: Waiting for pending navigations...
+[1660114262.407][INFO]: Done waiting for pending navigations. Status: ok
+[1660114262.407][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114262.408][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114262.408][INFO]: Waiting for pending navigations...
+[1660114262.408][INFO]: Done waiting for pending navigations. Status: ok
+[1660114262.415][INFO]: Waiting for pending navigations...
+[1660114262.416][INFO]: Done waiting for pending navigations. Status: ok
+[1660114262.416][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "fef10770-38bd-46bf-a3a5-13205884eb99"
+}
+[1660114262.417][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "fef10770-38bd-46bf-a3a5-13205884eb99"
+}
+[1660114262.417][INFO]: Waiting for pending navigations...
+[1660114262.417][INFO]: Done waiting for pending navigations. Status: ok
+[1660114264.111][INFO]: Waiting for pending navigations...
+[1660114265.090][INFO]: Done waiting for pending navigations. Status: ok
+[1660114265.090][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114265.091][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114265.091][INFO]: Waiting for pending navigations...
+[1660114265.091][INFO]: Done waiting for pending navigations. Status: ok
+[1660114265.318][INFO]: Waiting for pending navigations...
+[1660114265.642][INFO]: Done waiting for pending navigations. Status: ok
+[1660114265.642][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114267.648][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114267.648][INFO]: Waiting for pending navigations...
+[1660114269.995][INFO]: Done waiting for pending navigations. Status: ok
+[1660114270.123][INFO]: Waiting for pending navigations...
+[1660114270.129][INFO]: Done waiting for pending navigations. Status: ok
+[1660114270.129][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "4906cbdd-cf06-460c-8afa-680abf2ebd21"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9a256fe-f987-4f7f-afd3-4cec2ad378fd"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "10cf5152-287f-42da-8acb-42eac14ee8e3"
+} ]
+[1660114270.130][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "4906cbdd-cf06-460c-8afa-680abf2ebd21",
+   "text": "36 Chippewa Dr, Buzzards Bay, MA 02532",
+   "value": [ "3", "6", " ", "C", "h", "i", "p", "p", "e", "w", "a", " ", "D", "r", ",", " ", "B", "u", "z", "z", "a", "r", "d", "s", " ", "B", "a", "y", ",", " ", "M", "A", " ", "0", "2", "5", "3", "2" ]
+}
+[1660114270.130][INFO]: Waiting for pending navigations...
+[1660114270.171][INFO]: Done waiting for pending navigations. Status: ok
+[1660114270.940][INFO]: Waiting for pending navigations...
+[1660114270.972][INFO]: Done waiting for pending navigations. Status: ok
+[1660114270.972][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114270.973][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "a9a256fe-f987-4f7f-afd3-4cec2ad378fd",
+   "text": "$275,000",
+   "value": [ "$", "2", "7", "5", ",", "0", "0", "0" ]
+}
+[1660114270.973][INFO]: Waiting for pending navigations...
+[1660114270.989][INFO]: Done waiting for pending navigations. Status: ok
+[1660114271.411][INFO]: Waiting for pending navigations...
+[1660114271.483][INFO]: Done waiting for pending navigations. Status: ok
+[1660114271.483][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114271.484][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "10cf5152-287f-42da-8acb-42eac14ee8e3",
+   "text": "https://www.zillow.com/homedetails/36-Chippewa-Dr-Buzzards-Bay-MA-02532/56660663_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "3", "6", "-", "C", "h", "i", "p", "p", "e", "w", "a", "-", "D", "r", "-", "B", "u", "z", "z", "a", "r", "d", "s", "-", "B", "a", "y", "-", "M", "A", "-", "0", "2", "5", "3", "2", "/", "5", "6", "6", "6", "0", "6", "6", "3", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114271.484][INFO]: Waiting for pending navigations...
+[1660114271.485][INFO]: Done waiting for pending navigations. Status: ok
+[1660114272.998][INFO]: Waiting for pending navigations...
+[1660114273.006][INFO]: Done waiting for pending navigations. Status: ok
+[1660114273.006][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114273.007][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114273.007][INFO]: Waiting for pending navigations...
+[1660114273.007][INFO]: Done waiting for pending navigations. Status: ok
+[1660114273.092][INFO]: Waiting for pending navigations...
+[1660114273.093][INFO]: Done waiting for pending navigations. Status: ok
+[1660114273.093][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "037eba67-413c-4a91-9b1e-3f8c3ccdf26c"
+}
+[1660114273.094][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "037eba67-413c-4a91-9b1e-3f8c3ccdf26c"
+}
+[1660114273.094][INFO]: Waiting for pending navigations...
+[1660114273.094][INFO]: Done waiting for pending navigations. Status: ok
+[1660114274.953][INFO]: Waiting for pending navigations...
+[1660114275.896][INFO]: Done waiting for pending navigations. Status: ok
+[1660114275.896][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114275.897][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114275.897][INFO]: Waiting for pending navigations...
+[1660114275.897][INFO]: Done waiting for pending navigations. Status: ok
+[1660114276.117][INFO]: Waiting for pending navigations...
+[1660114276.437][INFO]: Done waiting for pending navigations. Status: ok
+[1660114276.437][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114278.442][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114278.442][INFO]: Waiting for pending navigations...
+[1660114280.637][INFO]: Done waiting for pending navigations. Status: ok
+[1660114280.756][INFO]: Waiting for pending navigations...
+[1660114280.867][INFO]: Done waiting for pending navigations. Status: ok
+[1660114280.867][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "acbe2a4d-10ae-4b2e-ad4a-8a2c617bb795"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "88c54be7-cc0b-41db-9e6d-3fcfb9127950"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ae92236e-452c-49df-bc89-dec2e32f81c6"
+} ]
+[1660114280.868][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "acbe2a4d-10ae-4b2e-ad4a-8a2c617bb795",
+   "text": "310 Old Chatham Road UNIT A-97, South Dennis, MA 02660",
+   "value": [ "3", "1", "0", " ", "O", "l", "d", " ", "C", "h", "a", "t", "h", "a", "m", " ", "R", "o", "a", "d", " ", "U", "N", "I", "T", " ", "A", "-", "9", "7", ",", " ", "S", "o", "u", "t", "h", " ", "D", "e", "n", "n", "i", "s", ",", " ", "M", "A", " ", "0", "2", "6", "6", "0" ]
+}
+[1660114280.868][INFO]: Waiting for pending navigations...
+[1660114280.958][INFO]: Done waiting for pending navigations. Status: ok
+[1660114281.974][INFO]: Waiting for pending navigations...
+[1660114282.007][INFO]: Done waiting for pending navigations. Status: ok
+[1660114282.007][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114282.008][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "88c54be7-cc0b-41db-9e6d-3fcfb9127950",
+   "text": "$69,900",
+   "value": [ "$", "6", "9", ",", "9", "0", "0" ]
+}
+[1660114282.008][INFO]: Waiting for pending navigations...
+[1660114282.066][INFO]: Done waiting for pending navigations. Status: ok
+[1660114282.538][INFO]: Waiting for pending navigations...
+[1660114282.549][INFO]: Done waiting for pending navigations. Status: ok
+[1660114282.549][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114282.550][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "ae92236e-452c-49df-bc89-dec2e32f81c6",
+   "text": "https://www.zillow.com/homedetails/310-Old-Chatham-Rd-A97-South-Dennis-MA-02660/2124518413_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "3", "1", "0", "-", "O", "l", "d", "-", "C", "h", "a", "t", "h", "a", "m", "-", "R", "d", "-", "A", "9", "7", "-", "S", "o", "u", "t", "h", "-", "D", "e", "n", "n", "i", "s", "-", "M", "A", "-", "0", "2", "6", "6", "0", "/", "2", "1", "2", "4", "5", "1", "8", "4", "1", "3", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114282.550][INFO]: Waiting for pending navigations...
+[1660114282.559][INFO]: Done waiting for pending navigations. Status: ok
+[1660114283.823][INFO]: Waiting for pending navigations...
+[1660114283.825][INFO]: Done waiting for pending navigations. Status: ok
+[1660114283.825][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114283.826][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114283.826][INFO]: Waiting for pending navigations...
+[1660114283.827][INFO]: Done waiting for pending navigations. Status: ok
+[1660114284.522][INFO]: Waiting for pending navigations...
+[1660114284.702][INFO]: Done waiting for pending navigations. Status: ok
+[1660114284.702][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0d422b56-f700-4b82-923e-f5eea6cbc2b9"
+}
+[1660114284.703][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "0d422b56-f700-4b82-923e-f5eea6cbc2b9"
+}
+[1660114284.703][INFO]: Waiting for pending navigations...
+[1660114284.998][INFO]: Done waiting for pending navigations. Status: ok
+[1660114285.580][INFO]: Waiting for pending navigations...
+[1660114286.583][INFO]: Done waiting for pending navigations. Status: ok
+[1660114286.583][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114286.584][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114286.585][INFO]: Waiting for pending navigations...
+[1660114286.585][INFO]: Done waiting for pending navigations. Status: ok
+[1660114286.820][INFO]: Waiting for pending navigations...
+[1660114287.157][INFO]: Done waiting for pending navigations. Status: ok
+[1660114287.157][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114289.163][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114289.164][INFO]: Waiting for pending navigations...
+[1660114291.162][INFO]: Done waiting for pending navigations. Status: ok
+[1660114291.274][INFO]: Waiting for pending navigations...
+[1660114291.278][INFO]: Done waiting for pending navigations. Status: ok
+[1660114291.278][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "9010203f-7d7b-43e3-8893-0ddca4803bda"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "397f1a3d-9c44-4cbe-82f2-ad04166c10f0"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1a176cb7-5be6-4753-805f-7007704269f4"
+} ]
+[1660114291.279][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "9010203f-7d7b-43e3-8893-0ddca4803bda",
+   "text": "329 W Main St #19, Barnstable, MA 02630",
+   "value": [ "3", "2", "9", " ", "W", " ", "M", "a", "i", "n", " ", "S", "t", " ", "#", "1", "9", ",", " ", "B", "a", "r", "n", "s", "t", "a", "b", "l", "e", ",", " ", "M", "A", " ", "0", "2", "6", "3", "0" ]
+}
+[1660114291.279][INFO]: Waiting for pending navigations...
+[1660114291.280][INFO]: Done waiting for pending navigations. Status: ok
+[1660114292.113][INFO]: Waiting for pending navigations...
+[1660114292.519][INFO]: Done waiting for pending navigations. Status: ok
+[1660114292.519][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114292.520][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "397f1a3d-9c44-4cbe-82f2-ad04166c10f0",
+   "text": "$299,900",
+   "value": [ "$", "2", "9", "9", ",", "9", "0", "0" ]
+}
+[1660114292.520][INFO]: Waiting for pending navigations...
+[1660114292.548][INFO]: Done waiting for pending navigations. Status: ok
+[1660114293.050][INFO]: Waiting for pending navigations...
+[1660114293.073][INFO]: Done waiting for pending navigations. Status: ok
+[1660114293.073][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114293.074][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "1a176cb7-5be6-4753-805f-7007704269f4",
+   "text": "https://www.zillow.com/homedetails/329-W-Main-St-19-Barnstable-MA-02630/2062143549_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "3", "2", "9", "-", "W", "-", "M", "a", "i", "n", "-", "S", "t", "-", "1", "9", "-", "B", "a", "r", "n", "s", "t", "a", "b", "l", "e", "-", "M", "A", "-", "0", "2", "6", "3", "0", "/", "2", "0", "6", "2", "1", "4", "3", "5", "4", "9", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114293.074][INFO]: Waiting for pending navigations...
+[1660114293.074][INFO]: Done waiting for pending navigations. Status: ok
+[1660114294.037][INFO]: Waiting for pending navigations...
+[1660114294.039][INFO]: Done waiting for pending navigations. Status: ok
+[1660114294.039][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114294.040][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114294.040][INFO]: Waiting for pending navigations...
+[1660114294.041][INFO]: Done waiting for pending navigations. Status: ok
+[1660114294.092][INFO]: Waiting for pending navigations...
+[1660114294.111][INFO]: Done waiting for pending navigations. Status: ok
+[1660114294.111][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "096ca9bf-e6bf-42a2-be02-654dc10d1c30"
+}
+[1660114294.112][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "096ca9bf-e6bf-42a2-be02-654dc10d1c30"
+}
+[1660114294.112][INFO]: Waiting for pending navigations...
+[1660114294.120][INFO]: Done waiting for pending navigations. Status: ok
+[1660114294.639][INFO]: Waiting for pending navigations...
+[1660114296.907][INFO]: Done waiting for pending navigations. Status: ok
+[1660114296.907][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114296.908][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114296.908][INFO]: Waiting for pending navigations...
+[1660114296.909][INFO]: Done waiting for pending navigations. Status: ok
+[1660114297.133][INFO]: Waiting for pending navigations...
+[1660114297.454][INFO]: Done waiting for pending navigations. Status: ok
+[1660114297.454][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114299.460][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114299.460][INFO]: Waiting for pending navigations...
+[1660114301.520][INFO]: Done waiting for pending navigations. Status: ok
+[1660114301.638][INFO]: Waiting for pending navigations...
+[1660114301.748][INFO]: Done waiting for pending navigations. Status: ok
+[1660114301.748][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "4d59f5e2-ecd8-445e-95e1-ca61515f46a5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d9c2800b-1410-4097-b226-68c7fcddb865"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "30c8b48d-e7bc-4ef9-8662-520a2fca6702"
+} ]
+[1660114301.749][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "4d59f5e2-ecd8-445e-95e1-ca61515f46a5",
+   "text": "300 Nathan Ellis Highway UNIT 11, Mashpee, MA 02649",
+   "value": [ "3", "0", "0", " ", "N", "a", "t", "h", "a", "n", " ", "E", "l", "l", "i", "s", " ", "H", "i", "g", "h", "w", "a", "y", " ", "U", "N", "I", "T", " ", "1", "1", ",", " ", "M", "a", "s", "h", "p", "e", "e", ",", " ", "M", "A", " ", "0", "2", "6", "4", "9" ]
+}
+[1660114301.749][INFO]: Waiting for pending navigations...
+[1660114301.839][INFO]: Done waiting for pending navigations. Status: ok
+[1660114302.921][INFO]: Waiting for pending navigations...
+[1660114302.983][INFO]: Done waiting for pending navigations. Status: ok
+[1660114302.983][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114302.984][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "d9c2800b-1410-4097-b226-68c7fcddb865",
+   "text": "$59,000",
+   "value": [ "$", "5", "9", ",", "0", "0", "0" ]
+}
+[1660114302.984][INFO]: Waiting for pending navigations...
+[1660114303.078][INFO]: Done waiting for pending navigations. Status: ok
+[1660114303.568][INFO]: Waiting for pending navigations...
+[1660114303.582][INFO]: Done waiting for pending navigations. Status: ok
+[1660114303.582][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114303.583][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "30c8b48d-e7bc-4ef9-8662-520a2fca6702",
+   "text": "https://www.zillow.com/homedetails/300-Nathan-Ellis-Hwy-11-Mashpee-MA-02649/2062336679_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "3", "0", "0", "-", "N", "a", "t", "h", "a", "n", "-", "E", "l", "l", "i", "s", "-", "H", "w", "y", "-", "1", "1", "-", "M", "a", "s", "h", "p", "e", "e", "-", "M", "A", "-", "0", "2", "6", "4", "9", "/", "2", "0", "6", "2", "3", "3", "6", "6", "7", "9", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114303.583][INFO]: Waiting for pending navigations...
+[1660114303.584][INFO]: Done waiting for pending navigations. Status: ok
+[1660114306.163][INFO]: Waiting for pending navigations...
+[1660114306.165][INFO]: Done waiting for pending navigations. Status: ok
+[1660114306.165][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114306.166][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114306.166][INFO]: Waiting for pending navigations...
+[1660114306.200][INFO]: Done waiting for pending navigations. Status: ok
+[1660114306.218][INFO]: Waiting for pending navigations...
+[1660114306.218][INFO]: Done waiting for pending navigations. Status: ok
+[1660114306.218][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6406881c-f7e1-4cae-8d15-1184b21111bc"
+}
+[1660114306.219][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "6406881c-f7e1-4cae-8d15-1184b21111bc"
+}
+[1660114306.219][INFO]: Waiting for pending navigations...
+[1660114306.219][INFO]: Done waiting for pending navigations. Status: ok
+[1660114306.523][INFO]: Waiting for pending navigations...
+[1660114307.529][INFO]: Done waiting for pending navigations. Status: ok
+[1660114307.529][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114307.530][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114307.530][INFO]: Waiting for pending navigations...
+[1660114307.530][INFO]: Done waiting for pending navigations. Status: ok
+[1660114307.756][INFO]: Waiting for pending navigations...
+[1660114308.078][INFO]: Done waiting for pending navigations. Status: ok
+[1660114308.078][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114310.084][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114310.084][INFO]: Waiting for pending navigations...
+[1660114312.135][INFO]: Done waiting for pending navigations. Status: ok
+[1660114312.265][INFO]: Waiting for pending navigations...
+[1660114312.383][INFO]: Done waiting for pending navigations. Status: ok
+[1660114312.383][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2cf90eb3-ec44-4ff8-8e6e-8f6086d0935f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b0847af5-6726-4c39-b21d-83bf165a1da9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18706ef2-83be-4e53-b48e-5e6465c278e3"
+} ]
+[1660114312.384][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "2cf90eb3-ec44-4ff8-8e6e-8f6086d0935f",
+   "text": "(undisclosed Address), Mashpee, MA 02649",
+   "value": [ "(", "u", "n", "d", "i", "s", "c", "l", "o", "s", "e", "d", " ", "A", "d", "d", "r", "e", "s", "s", ")", ",", " ", "M", "a", "s", "h", "p", "e", "e", ",", " ", "M", "A", " ", "0", "2", "6", "4", "9" ]
+}
+[1660114312.384][INFO]: Waiting for pending navigations...
+[1660114312.509][INFO]: Done waiting for pending navigations. Status: ok
+[1660114313.399][INFO]: Waiting for pending navigations...
+[1660114313.421][INFO]: Done waiting for pending navigations. Status: ok
+[1660114313.421][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114313.422][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "b0847af5-6726-4c39-b21d-83bf165a1da9",
+   "text": "$261,000",
+   "value": [ "$", "2", "6", "1", ",", "0", "0", "0" ]
+}
+[1660114313.423][INFO]: Waiting for pending navigations...
+[1660114313.440][INFO]: Done waiting for pending navigations. Status: ok
+[1660114313.819][INFO]: Waiting for pending navigations...
+[1660114313.850][INFO]: Done waiting for pending navigations. Status: ok
+[1660114313.850][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114313.852][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "18706ef2-83be-4e53-b48e-5e6465c278e3",
+   "text": "https://www.zillow.com/homedetails/Mashpee-MA-02649/55913227_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "M", "a", "s", "h", "p", "e", "e", "-", "M", "A", "-", "0", "2", "6", "4", "9", "/", "5", "5", "9", "1", "3", "2", "2", "7", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114313.852][INFO]: Waiting for pending navigations...
+[1660114313.857][INFO]: Done waiting for pending navigations. Status: ok
+[1660114315.102][INFO]: Waiting for pending navigations...
+[1660114315.112][INFO]: Done waiting for pending navigations. Status: ok
+[1660114315.112][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114315.113][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114315.113][INFO]: Waiting for pending navigations...
+[1660114315.113][INFO]: Done waiting for pending navigations. Status: ok
+[1660114315.152][INFO]: Waiting for pending navigations...
+[1660114315.153][INFO]: Done waiting for pending navigations. Status: ok
+[1660114315.153][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "fbcfc7cd-715b-40ef-9516-8ddc6b5ce262"
+}
+[1660114315.154][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "fbcfc7cd-715b-40ef-9516-8ddc6b5ce262"
+}
+[1660114315.154][INFO]: Waiting for pending navigations...
+[1660114315.154][INFO]: Done waiting for pending navigations. Status: ok
+[1660114315.660][INFO]: Waiting for pending navigations...
+[1660114317.865][INFO]: Done waiting for pending navigations. Status: ok
+[1660114317.865][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114317.866][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114317.866][INFO]: Waiting for pending navigations...
+[1660114317.866][INFO]: Done waiting for pending navigations. Status: ok
+[1660114318.116][INFO]: Waiting for pending navigations...
+[1660114318.439][INFO]: Done waiting for pending navigations. Status: ok
+[1660114318.439][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114320.445][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114320.445][INFO]: Waiting for pending navigations...
+[1660114322.456][INFO]: Done waiting for pending navigations. Status: ok
+[1660114322.574][INFO]: Waiting for pending navigations...
+[1660114322.690][INFO]: Done waiting for pending navigations. Status: ok
+[1660114322.690][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "c11a3fff-305c-44b6-bf63-4c7cf9339f72"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ce1f45c0-d6f9-4bb4-a63a-ef884df87f96"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bfa67098-0d09-40e1-bfbd-1057e3c9cdc6"
+} ]
+[1660114322.691][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "c11a3fff-305c-44b6-bf63-4c7cf9339f72",
+   "text": "14 Fifth Avenue, Pocasset, MA 02559",
+   "value": [ "1", "4", " ", "F", "i", "f", "t", "h", " ", "A", "v", "e", "n", "u", "e", ",", " ", "P", "o", "c", "a", "s", "s", "e", "t", ",", " ", "M", "A", " ", "0", "2", "5", "5", "9" ]
+}
+[1660114322.691][INFO]: Waiting for pending navigations...
+[1660114322.780][INFO]: Done waiting for pending navigations. Status: ok
+[1660114323.589][INFO]: Waiting for pending navigations...
+[1660114323.608][INFO]: Done waiting for pending navigations. Status: ok
+[1660114323.608][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114323.609][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "ce1f45c0-d6f9-4bb4-a63a-ef884df87f96",
+   "text": "$80,000",
+   "value": [ "$", "8", "0", ",", "0", "0", "0" ]
+}
+[1660114323.609][INFO]: Waiting for pending navigations...
+[1660114323.636][INFO]: Done waiting for pending navigations. Status: ok
+[1660114323.956][INFO]: Waiting for pending navigations...
+[1660114323.984][INFO]: Done waiting for pending navigations. Status: ok
+[1660114323.984][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114323.986][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "bfa67098-0d09-40e1-bfbd-1057e3c9cdc6",
+   "text": "https://www.zillow.com/homedetails/14-5th-Ave-Pocasset-MA-02559/2146760008_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "1", "4", "-", "5", "t", "h", "-", "A", "v", "e", "-", "P", "o", "c", "a", "s", "s", "e", "t", "-", "M", "A", "-", "0", "2", "5", "5", "9", "/", "2", "1", "4", "6", "7", "6", "0", "0", "0", "8", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114323.986][INFO]: Waiting for pending navigations...
+[1660114323.988][INFO]: Done waiting for pending navigations. Status: ok
+[1660114325.329][INFO]: Waiting for pending navigations...
+[1660114325.367][INFO]: Done waiting for pending navigations. Status: ok
+[1660114325.367][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114325.368][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114325.368][INFO]: Waiting for pending navigations...
+[1660114325.385][INFO]: Done waiting for pending navigations. Status: ok
+[1660114325.423][INFO]: Waiting for pending navigations...
+[1660114325.424][INFO]: Done waiting for pending navigations. Status: ok
+[1660114325.424][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b8a79b7a-39ad-4041-9eef-5f659886af7b"
+}
+[1660114325.425][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "b8a79b7a-39ad-4041-9eef-5f659886af7b"
+}
+[1660114325.425][INFO]: Waiting for pending navigations...
+[1660114325.425][INFO]: Done waiting for pending navigations. Status: ok
+[1660114325.935][INFO]: Waiting for pending navigations...
+[1660114328.198][INFO]: Done waiting for pending navigations. Status: ok
+[1660114328.198][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114328.199][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114328.199][INFO]: Waiting for pending navigations...
+[1660114328.200][INFO]: Done waiting for pending navigations. Status: ok
+[1660114328.400][INFO]: Waiting for pending navigations...
+[1660114328.719][INFO]: Done waiting for pending navigations. Status: ok
+[1660114328.719][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114330.721][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114330.722][INFO]: Waiting for pending navigations...
+[1660114332.894][INFO]: Done waiting for pending navigations. Status: ok
+[1660114333.014][INFO]: Waiting for pending navigations...
+[1660114333.128][INFO]: Done waiting for pending navigations. Status: ok
+[1660114333.128][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "e923af20-6ed4-4132-9e56-7905d7ed5921"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5f2475f1-d57a-4616-9ab6-657059f2bfb2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "917ecfb6-4071-4df5-b95d-aee90ce35b97"
+} ]
+[1660114333.129][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "e923af20-6ed4-4132-9e56-7905d7ed5921",
+   "text": "78 Center St UNIT 1-5, South Dennis, MA 02660",
+   "value": [ "7", "8", " ", "C", "e", "n", "t", "e", "r", " ", "S", "t", " ", "U", "N", "I", "T", " ", "1", "-", "5", ",", " ", "S", "o", "u", "t", "h", " ", "D", "e", "n", "n", "i", "s", ",", " ", "M", "A", " ", "0", "2", "6", "6", "0" ]
+}
+[1660114333.129][INFO]: Waiting for pending navigations...
+[1660114333.218][INFO]: Done waiting for pending navigations. Status: ok
+[1660114334.140][INFO]: Waiting for pending navigations...
+[1660114334.185][INFO]: Done waiting for pending navigations. Status: ok
+[1660114334.185][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114334.186][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "5f2475f1-d57a-4616-9ab6-657059f2bfb2",
+   "text": "$279,900",
+   "value": [ "$", "2", "7", "9", ",", "9", "0", "0" ]
+}
+[1660114334.186][INFO]: Waiting for pending navigations...
+[1660114334.220][INFO]: Done waiting for pending navigations. Status: ok
+[1660114334.950][INFO]: Waiting for pending navigations...
+[1660114334.982][INFO]: Done waiting for pending navigations. Status: ok
+[1660114334.982][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114334.983][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "917ecfb6-4071-4df5-b95d-aee90ce35b97",
+   "text": "https://www.zillow.com/homedetails/78-Center-St-UNIT-1-5-South-Dennis-MA-02660/71325909_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "7", "8", "-", "C", "e", "n", "t", "e", "r", "-", "S", "t", "-", "U", "N", "I", "T", "-", "1", "-", "5", "-", "S", "o", "u", "t", "h", "-", "D", "e", "n", "n", "i", "s", "-", "M", "A", "-", "0", "2", "6", "6", "0", "/", "7", "1", "3", "2", "5", "9", "0", "9", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114334.983][INFO]: Waiting for pending navigations...
+[1660114334.983][INFO]: Done waiting for pending navigations. Status: ok
+[1660114336.127][INFO]: Waiting for pending navigations...
+[1660114336.459][INFO]: Done waiting for pending navigations. Status: ok
+[1660114336.459][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114336.460][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114336.460][INFO]: Waiting for pending navigations...
+[1660114337.084][INFO]: Done waiting for pending navigations. Status: ok
+[1660114337.116][INFO]: Waiting for pending navigations...
+[1660114337.145][INFO]: Done waiting for pending navigations. Status: ok
+[1660114337.145][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1c52cb49-8344-4532-af2e-d30f2722d236"
+}
+[1660114337.146][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "1c52cb49-8344-4532-af2e-d30f2722d236"
+}
+[1660114337.146][INFO]: Waiting for pending navigations...
+[1660114337.413][INFO]: Done waiting for pending navigations. Status: ok
+[1660114337.771][INFO]: Waiting for pending navigations...
+[1660114338.758][INFO]: Done waiting for pending navigations. Status: ok
+[1660114338.758][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114338.759][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114338.759][INFO]: Waiting for pending navigations...
+[1660114338.759][INFO]: Done waiting for pending navigations. Status: ok
+[1660114338.985][INFO]: Waiting for pending navigations...
+[1660114339.315][INFO]: Done waiting for pending navigations. Status: ok
+[1660114339.315][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114341.321][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114341.321][INFO]: Waiting for pending navigations...
+[1660114343.581][INFO]: Done waiting for pending navigations. Status: ok
+[1660114343.695][INFO]: Waiting for pending navigations...
+[1660114343.804][INFO]: Done waiting for pending navigations. Status: ok
+[1660114343.804][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "ba3bddad-9826-464d-839a-e4ad5c4137cf"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "74ef9277-8b6f-455c-a9fc-c2409f91f1b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7219f621-4cb2-48fa-a849-87c1ddded8ec"
+} ]
+[1660114343.806][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "ba3bddad-9826-464d-839a-e4ad5c4137cf",
+   "text": "310 Old chatham Road UNIT E43, Dennis, MA 02638",
+   "value": [ "3", "1", "0", " ", "O", "l", "d", " ", "c", "h", "a", "t", "h", "a", "m", " ", "R", "o", "a", "d", " ", "U", "N", "I", "T", " ", "E", "4", "3", ",", " ", "D", "e", "n", "n", "i", "s", ",", " ", "M", "A", " ", "0", "2", "6", "3", "8" ]
+}
+[1660114343.806][INFO]: Waiting for pending navigations...
+[1660114343.894][INFO]: Done waiting for pending navigations. Status: ok
+[1660114344.805][INFO]: Waiting for pending navigations...
+[1660114344.829][INFO]: Done waiting for pending navigations. Status: ok
+[1660114344.829][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114344.830][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "74ef9277-8b6f-455c-a9fc-c2409f91f1b3",
+   "text": "$35,000",
+   "value": [ "$", "3", "5", ",", "0", "0", "0" ]
+}
+[1660114344.830][INFO]: Waiting for pending navigations...
+[1660114344.853][INFO]: Done waiting for pending navigations. Status: ok
+[1660114345.220][INFO]: Waiting for pending navigations...
+[1660114345.237][INFO]: Done waiting for pending navigations. Status: ok
+[1660114345.237][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114345.238][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "7219f621-4cb2-48fa-a849-87c1ddded8ec",
+   "text": "https://www.zillow.com/homedetails/310-Old-Chatham-Rd-E43-South-Dennis-MA-02660/2062602444_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "3", "1", "0", "-", "O", "l", "d", "-", "C", "h", "a", "t", "h", "a", "m", "-", "R", "d", "-", "E", "4", "3", "-", "S", "o", "u", "t", "h", "-", "D", "e", "n", "n", "i", "s", "-", "M", "A", "-", "0", "2", "6", "6", "0", "/", "2", "0", "6", "2", "6", "0", "2", "4", "4", "4", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114345.238][INFO]: Waiting for pending navigations...
+[1660114345.238][INFO]: Done waiting for pending navigations. Status: ok
+[1660114346.687][INFO]: Waiting for pending navigations...
+[1660114346.689][INFO]: Done waiting for pending navigations. Status: ok
+[1660114346.689][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114346.690][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114346.690][INFO]: Waiting for pending navigations...
+[1660114346.690][INFO]: Done waiting for pending navigations. Status: ok
+[1660114347.367][INFO]: Waiting for pending navigations...
+[1660114347.668][INFO]: Done waiting for pending navigations. Status: ok
+[1660114347.668][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "66737aeb-fd33-4be0-8626-3634522938b4"
+}
+[1660114347.669][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "66737aeb-fd33-4be0-8626-3634522938b4"
+}
+[1660114347.669][INFO]: Waiting for pending navigations...
+[1660114347.943][INFO]: Done waiting for pending navigations. Status: ok
+[1660114348.288][INFO]: Waiting for pending navigations...
+[1660114349.242][INFO]: Done waiting for pending navigations. Status: ok
+[1660114349.242][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114349.243][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114349.243][INFO]: Waiting for pending navigations...
+[1660114349.243][INFO]: Done waiting for pending navigations. Status: ok
+[1660114349.481][INFO]: Waiting for pending navigations...
+[1660114349.821][INFO]: Done waiting for pending navigations. Status: ok
+[1660114349.821][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114351.827][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114351.827][INFO]: Waiting for pending navigations...
+[1660114353.916][INFO]: Done waiting for pending navigations. Status: ok
+[1660114354.031][INFO]: Waiting for pending navigations...
+[1660114354.134][INFO]: Done waiting for pending navigations. Status: ok
+[1660114354.134][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "c22a0f2c-e991-4e98-a7a3-0005a64e3757"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1de35634-38f6-411e-b9c0-7ca9cea0a92d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ed78c52d-d6a2-4aed-90e8-49a196183485"
+} ]
+[1660114354.135][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "c22a0f2c-e991-4e98-a7a3-0005a64e3757",
+   "text": "78 Center Street UNIT 1-05, Dennis Port, MA 02639",
+   "value": [ "7", "8", " ", "C", "e", "n", "t", "e", "r", " ", "S", "t", "r", "e", "e", "t", " ", "U", "N", "I", "T", " ", "1", "-", "0", "5", ",", " ", "D", "e", "n", "n", "i", "s", " ", "P", "o", "r", "t", ",", " ", "M", "A", " ", "0", "2", "6", "3", "9" ]
+}
+[1660114354.135][INFO]: Waiting for pending navigations...
+[1660114354.222][INFO]: Done waiting for pending navigations. Status: ok
+[1660114355.117][INFO]: Waiting for pending navigations...
+[1660114355.146][INFO]: Done waiting for pending navigations. Status: ok
+[1660114355.146][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114355.147][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "1de35634-38f6-411e-b9c0-7ca9cea0a92d",
+   "text": "$279,900",
+   "value": [ "$", "2", "7", "9", ",", "9", "0", "0" ]
+}
+[1660114355.147][INFO]: Waiting for pending navigations...
+[1660114355.160][INFO]: Done waiting for pending navigations. Status: ok
+[1660114355.480][INFO]: Waiting for pending navigations...
+[1660114355.611][INFO]: Done waiting for pending navigations. Status: ok
+[1660114355.611][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114355.612][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "ed78c52d-d6a2-4aed-90e8-49a196183485",
+   "text": "https://www.zillow.com/homedetails/78-Center-St-1-05-Dennis-Pt-MA-02639/2062260904_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "7", "8", "-", "C", "e", "n", "t", "e", "r", "-", "S", "t", "-", "1", "-", "0", "5", "-", "D", "e", "n", "n", "i", "s", "-", "P", "t", "-", "M", "A", "-", "0", "2", "6", "3", "9", "/", "2", "0", "6", "2", "2", "6", "0", "9", "0", "4", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114355.612][INFO]: Waiting for pending navigations...
+[1660114355.612][INFO]: Done waiting for pending navigations. Status: ok
+[1660114357.039][INFO]: Waiting for pending navigations...
+[1660114357.040][INFO]: Done waiting for pending navigations. Status: ok
+[1660114357.041][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114357.041][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114357.042][INFO]: Waiting for pending navigations...
+[1660114357.044][INFO]: Done waiting for pending navigations. Status: ok
+[1660114357.050][INFO]: Waiting for pending navigations...
+[1660114357.051][INFO]: Done waiting for pending navigations. Status: ok
+[1660114357.051][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a68491c5-b39c-4388-b4cf-8b582353205e"
+}
+[1660114357.052][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "a68491c5-b39c-4388-b4cf-8b582353205e"
+}
+[1660114357.052][INFO]: Waiting for pending navigations...
+[1660114357.052][INFO]: Done waiting for pending navigations. Status: ok
+[1660114357.531][INFO]: Waiting for pending navigations...
+[1660114359.800][INFO]: Done waiting for pending navigations. Status: ok
+[1660114359.800][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114359.801][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114359.801][INFO]: Waiting for pending navigations...
+[1660114359.801][INFO]: Done waiting for pending navigations. Status: ok
+[1660114360.045][INFO]: Waiting for pending navigations...
+[1660114360.370][INFO]: Done waiting for pending navigations. Status: ok
+[1660114360.370][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114362.376][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114362.376][INFO]: Waiting for pending navigations...
+[1660114364.597][INFO]: Done waiting for pending navigations. Status: ok
+[1660114364.726][INFO]: Waiting for pending navigations...
+[1660114364.843][INFO]: Done waiting for pending navigations. Status: ok
+[1660114364.843][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "14669065-976c-462d-9b6e-5a75ca3967b4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1393d44-562b-404d-98e3-397884030b87"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1daf5797-bdf6-44fa-9d73-f7ae69b91d01"
+} ]
+[1660114364.845][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "14669065-976c-462d-9b6e-5a75ca3967b4",
+   "text": "187 Plymouth Ave, Wareham, MA 02571",
+   "value": [ "1", "8", "7", " ", "P", "l", "y", "m", "o", "u", "t", "h", " ", "A", "v", "e", ",", " ", "W", "a", "r", "e", "h", "a", "m", ",", " ", "M", "A", " ", "0", "2", "5", "7", "1" ]
+}
+[1660114364.845][INFO]: Waiting for pending navigations...
+[1660114364.936][INFO]: Done waiting for pending navigations. Status: ok
+[1660114365.818][INFO]: Waiting for pending navigations...
+[1660114365.833][INFO]: Done waiting for pending navigations. Status: ok
+[1660114365.833][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114365.834][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "e1393d44-562b-404d-98e3-397884030b87",
+   "text": "$285,000",
+   "value": [ "$", "2", "8", "5", ",", "0", "0", "0" ]
+}
+[1660114365.834][INFO]: Waiting for pending navigations...
+[1660114365.851][INFO]: Done waiting for pending navigations. Status: ok
+[1660114366.376][INFO]: Waiting for pending navigations...
+[1660114366.433][INFO]: Done waiting for pending navigations. Status: ok
+[1660114366.433][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114366.434][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "1daf5797-bdf6-44fa-9d73-f7ae69b91d01",
+   "text": "https://www.zillow.com/homedetails/187-Plymouth-Ave-Wareham-MA-02571/56666297_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "1", "8", "7", "-", "P", "l", "y", "m", "o", "u", "t", "h", "-", "A", "v", "e", "-", "W", "a", "r", "e", "h", "a", "m", "-", "M", "A", "-", "0", "2", "5", "7", "1", "/", "5", "6", "6", "6", "6", "2", "9", "7", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114366.434][INFO]: Waiting for pending navigations...
+[1660114366.438][INFO]: Done waiting for pending navigations. Status: ok
+[1660114367.727][INFO]: Waiting for pending navigations...
+[1660114367.741][INFO]: Done waiting for pending navigations. Status: ok
+[1660114367.741][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114367.742][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114367.742][INFO]: Waiting for pending navigations...
+[1660114367.742][INFO]: Done waiting for pending navigations. Status: ok
+[1660114367.770][INFO]: Waiting for pending navigations...
+[1660114367.771][INFO]: Done waiting for pending navigations. Status: ok
+[1660114367.771][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8ebebd19-87af-421d-9ac0-5b52bb4d6f58"
+}
+[1660114367.772][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "8ebebd19-87af-421d-9ac0-5b52bb4d6f58"
+}
+[1660114367.772][INFO]: Waiting for pending navigations...
+[1660114367.772][INFO]: Done waiting for pending navigations. Status: ok
+[1660114368.249][INFO]: Waiting for pending navigations...
+[1660114370.598][INFO]: Done waiting for pending navigations. Status: ok
+[1660114370.598][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114370.599][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114370.599][INFO]: Waiting for pending navigations...
+[1660114370.599][INFO]: Done waiting for pending navigations. Status: ok
+[1660114370.818][INFO]: Waiting for pending navigations...
+[1660114371.161][INFO]: Done waiting for pending navigations. Status: ok
+[1660114371.161][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114373.167][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114373.167][INFO]: Waiting for pending navigations...
+[1660114375.179][INFO]: Done waiting for pending navigations. Status: ok
+[1660114375.294][INFO]: Waiting for pending navigations...
+[1660114375.405][INFO]: Done waiting for pending navigations. Status: ok
+[1660114375.405][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "55541564-529d-48af-86ec-f96166b156dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "390b6ac8-986e-4098-b0fe-ebfd8d079931"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "04cb5830-dd7b-4a50-893b-055c81b873e3"
+} ]
+[1660114375.406][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "55541564-529d-48af-86ec-f96166b156dc",
+   "text": "310 Old Chatham Road UNIT A-143, South Dennis, MA 02660",
+   "value": [ "3", "1", "0", " ", "O", "l", "d", " ", "C", "h", "a", "t", "h", "a", "m", " ", "R", "o", "a", "d", " ", "U", "N", "I", "T", " ", "A", "-", "1", "4", "3", ",", " ", "S", "o", "u", "t", "h", " ", "D", "e", "n", "n", "i", "s", ",", " ", "M", "A", " ", "0", "2", "6", "6", "0" ]
+}
+[1660114375.406][INFO]: Waiting for pending navigations...
+[1660114375.496][INFO]: Done waiting for pending navigations. Status: ok
+[1660114376.555][INFO]: Waiting for pending navigations...
+[1660114376.617][INFO]: Done waiting for pending navigations. Status: ok
+[1660114376.617][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114376.618][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "390b6ac8-986e-4098-b0fe-ebfd8d079931",
+   "text": "$59,850",
+   "value": [ "$", "5", "9", ",", "8", "5", "0" ]
+}
+[1660114376.618][INFO]: Waiting for pending navigations...
+[1660114376.652][INFO]: Done waiting for pending navigations. Status: ok
+[1660114377.143][INFO]: Waiting for pending navigations...
+[1660114377.144][INFO]: Done waiting for pending navigations. Status: ok
+[1660114377.144][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114377.145][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "04cb5830-dd7b-4a50-893b-055c81b873e3",
+   "text": "https://www.zillow.com/homedetails/310-Old-Chatham-Rd-A-143-South-Dennis-MA-02660/2062931287_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "3", "1", "0", "-", "O", "l", "d", "-", "C", "h", "a", "t", "h", "a", "m", "-", "R", "d", "-", "A", "-", "1", "4", "3", "-", "S", "o", "u", "t", "h", "-", "D", "e", "n", "n", "i", "s", "-", "M", "A", "-", "0", "2", "6", "6", "0", "/", "2", "0", "6", "2", "9", "3", "1", "2", "8", "7", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114377.145][INFO]: Waiting for pending navigations...
+[1660114377.146][INFO]: Done waiting for pending navigations. Status: ok
+[1660114378.345][INFO]: Waiting for pending navigations...
+[1660114378.346][INFO]: Done waiting for pending navigations. Status: ok
+[1660114378.347][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114378.347][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114378.347][INFO]: Waiting for pending navigations...
+[1660114378.348][INFO]: Done waiting for pending navigations. Status: ok
+[1660114378.359][INFO]: Waiting for pending navigations...
+[1660114378.360][INFO]: Done waiting for pending navigations. Status: ok
+[1660114378.360][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "93042f93-f9a9-4f52-acc0-5d51cd7282be"
+}
+[1660114378.361][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "93042f93-f9a9-4f52-acc0-5d51cd7282be"
+}
+[1660114378.361][INFO]: Waiting for pending navigations...
+[1660114378.361][INFO]: Done waiting for pending navigations. Status: ok
+[1660114378.846][INFO]: Waiting for pending navigations...
+[1660114381.192][INFO]: Done waiting for pending navigations. Status: ok
+[1660114381.192][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114381.193][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114381.193][INFO]: Waiting for pending navigations...
+[1660114381.194][INFO]: Done waiting for pending navigations. Status: ok
+[1660114381.506][INFO]: Waiting for pending navigations...
+[1660114381.829][INFO]: Done waiting for pending navigations. Status: ok
+[1660114381.829][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114383.832][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114383.832][INFO]: Waiting for pending navigations...
+[1660114385.929][INFO]: Done waiting for pending navigations. Status: ok
+[1660114386.049][INFO]: Waiting for pending navigations...
+[1660114386.158][INFO]: Done waiting for pending navigations. Status: ok
+[1660114386.158][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "644b4cb1-e2de-4ff8-9c50-dfb729711fd3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "976386b8-9e5b-4862-9184-ef1c1d0106b6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "226f9509-6b32-472e-a63d-ac4fd6d6be67"
+} ]
+[1660114386.159][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "644b4cb1-e2de-4ff8-9c50-dfb729711fd3",
+   "text": "247 Main St #4, Barnstable, MA 02630",
+   "value": [ "2", "4", "7", " ", "M", "a", "i", "n", " ", "S", "t", " ", "#", "4", ",", " ", "B", "a", "r", "n", "s", "t", "a", "b", "l", "e", ",", " ", "M", "A", " ", "0", "2", "6", "3", "0" ]
+}
+[1660114386.159][INFO]: Waiting for pending navigations...
+[1660114386.248][INFO]: Done waiting for pending navigations. Status: ok
+[1660114387.091][INFO]: Waiting for pending navigations...
+[1660114387.107][INFO]: Done waiting for pending navigations. Status: ok
+[1660114387.107][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114387.108][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "976386b8-9e5b-4862-9184-ef1c1d0106b6",
+   "text": "$240,000",
+   "value": [ "$", "2", "4", "0", ",", "0", "0", "0" ]
+}
+[1660114387.108][INFO]: Waiting for pending navigations...
+[1660114387.129][INFO]: Done waiting for pending navigations. Status: ok
+[1660114387.662][INFO]: Waiting for pending navigations...
+[1660114387.753][INFO]: Done waiting for pending navigations. Status: ok
+[1660114387.753][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114387.754][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "226f9509-6b32-472e-a63d-ac4fd6d6be67",
+   "text": "https://www.zillow.com/homedetails/247-Main-St-4-Barnstable-MA-02630/2067791414_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "2", "4", "7", "-", "M", "a", "i", "n", "-", "S", "t", "-", "4", "-", "B", "a", "r", "n", "s", "t", "a", "b", "l", "e", "-", "M", "A", "-", "0", "2", "6", "3", "0", "/", "2", "0", "6", "7", "7", "9", "1", "4", "1", "4", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114387.754][INFO]: Waiting for pending navigations...
+[1660114387.754][INFO]: Done waiting for pending navigations. Status: ok
+[1660114388.875][INFO]: Waiting for pending navigations...
+[1660114388.887][INFO]: Done waiting for pending navigations. Status: ok
+[1660114388.887][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114388.888][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114388.888][INFO]: Waiting for pending navigations...
+[1660114388.889][INFO]: Done waiting for pending navigations. Status: ok
+[1660114388.944][INFO]: Waiting for pending navigations...
+[1660114388.945][INFO]: Done waiting for pending navigations. Status: ok
+[1660114388.945][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "eefa55e4-7945-4a62-9549-2e286d0b147c"
+}
+[1660114388.946][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "eefa55e4-7945-4a62-9549-2e286d0b147c"
+}
+[1660114388.946][INFO]: Waiting for pending navigations...
+[1660114388.946][INFO]: Done waiting for pending navigations. Status: ok
+[1660114389.522][INFO]: Waiting for pending navigations...
+[1660114391.951][INFO]: Done waiting for pending navigations. Status: ok
+[1660114391.951][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114391.952][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114391.952][INFO]: Waiting for pending navigations...
+[1660114391.953][INFO]: Done waiting for pending navigations. Status: ok
+[1660114392.197][INFO]: Waiting for pending navigations...
+[1660114392.519][INFO]: Done waiting for pending navigations. Status: ok
+[1660114392.519][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114394.521][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114394.521][INFO]: Waiting for pending navigations...
+[1660114396.575][INFO]: Done waiting for pending navigations. Status: ok
+[1660114396.700][INFO]: Waiting for pending navigations...
+[1660114396.814][INFO]: Done waiting for pending navigations. Status: ok
+[1660114396.814][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "941880be-0b7c-498a-b49b-de9dbbcfb780"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3adcf980-84e6-4e00-9d52-5ae8c7206be2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "21234bd4-bdaf-4c77-97db-61b2e6c498ec"
+} ]
+[1660114396.816][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "941880be-0b7c-498a-b49b-de9dbbcfb780",
+   "text": "110 Dillingham Ave UNIT 211, Falmouth, MA 02540",
+   "value": [ "1", "1", "0", " ", "D", "i", "l", "l", "i", "n", "g", "h", "a", "m", " ", "A", "v", "e", " ", "U", "N", "I", "T", " ", "2", "1", "1", ",", " ", "F", "a", "l", "m", "o", "u", "t", "h", ",", " ", "M", "A", " ", "0", "2", "5", "4", "0" ]
+}
+[1660114396.816][INFO]: Waiting for pending navigations...
+[1660114396.905][INFO]: Done waiting for pending navigations. Status: ok
+[1660114397.930][INFO]: Waiting for pending navigations...
+[1660114397.962][INFO]: Done waiting for pending navigations. Status: ok
+[1660114397.962][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114397.963][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "3adcf980-84e6-4e00-9d52-5ae8c7206be2",
+   "text": "$242,100",
+   "value": [ "$", "2", "4", "2", ",", "1", "0", "0" ]
+}
+[1660114397.963][INFO]: Waiting for pending navigations...
+[1660114397.992][INFO]: Done waiting for pending navigations. Status: ok
+[1660114398.491][INFO]: Waiting for pending navigations...
+[1660114398.499][INFO]: Done waiting for pending navigations. Status: ok
+[1660114398.499][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114398.500][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "21234bd4-bdaf-4c77-97db-61b2e6c498ec",
+   "text": "https://www.zillow.com/homedetails/110-Dillingham-Ave-UNIT-211-Falmouth-MA-02540/71489713_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "1", "1", "0", "-", "D", "i", "l", "l", "i", "n", "g", "h", "a", "m", "-", "A", "v", "e", "-", "U", "N", "I", "T", "-", "2", "1", "1", "-", "F", "a", "l", "m", "o", "u", "t", "h", "-", "M", "A", "-", "0", "2", "5", "4", "0", "/", "7", "1", "4", "8", "9", "7", "1", "3", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114398.500][INFO]: Waiting for pending navigations...
+[1660114398.510][INFO]: Done waiting for pending navigations. Status: ok
+[1660114399.896][INFO]: Waiting for pending navigations...
+[1660114399.904][INFO]: Done waiting for pending navigations. Status: ok
+[1660114399.919][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114399.920][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114399.921][INFO]: Waiting for pending navigations...
+[1660114399.929][INFO]: Done waiting for pending navigations. Status: ok
+[1660114400.431][INFO]: Waiting for pending navigations...
+[1660114400.878][INFO]: Done waiting for pending navigations. Status: ok
+[1660114400.878][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0ad6e62b-5e41-499e-85a3-e919800468f5"
+}
+[1660114400.879][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "0ad6e62b-5e41-499e-85a3-e919800468f5"
+}
+[1660114400.879][INFO]: Waiting for pending navigations...
+[1660114400.884][INFO]: Done waiting for pending navigations. Status: ok
+[1660114401.540][INFO]: Waiting for pending navigations...
+[1660114402.573][INFO]: Done waiting for pending navigations. Status: ok
+[1660114402.574][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114402.575][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114402.576][INFO]: Waiting for pending navigations...
+[1660114402.576][INFO]: Done waiting for pending navigations. Status: ok
+[1660114402.789][INFO]: Waiting for pending navigations...
+[1660114403.118][INFO]: Done waiting for pending navigations. Status: ok
+[1660114403.118][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114405.124][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114405.124][INFO]: Waiting for pending navigations...
+[1660114407.577][INFO]: Done waiting for pending navigations. Status: ok
+[1660114407.697][INFO]: Waiting for pending navigations...
+[1660114407.809][INFO]: Done waiting for pending navigations. Status: ok
+[1660114407.809][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "343f2c44-3de9-48d7-944c-e396098967ca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac0542cf-f2ac-4791-8b9e-01d87bbb11f1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "aba54177-1fba-489c-bdcc-66f9e164f8cd"
+} ]
+[1660114407.810][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "343f2c44-3de9-48d7-944c-e396098967ca",
+   "text": "310 Old Chatham Road UNIT A111, Dennis, MA 02660",
+   "value": [ "3", "1", "0", " ", "O", "l", "d", " ", "C", "h", "a", "t", "h", "a", "m", " ", "R", "o", "a", "d", " ", "U", "N", "I", "T", " ", "A", "1", "1", "1", ",", " ", "D", "e", "n", "n", "i", "s", ",", " ", "M", "A", " ", "0", "2", "6", "6", "0" ]
+}
+[1660114407.810][INFO]: Waiting for pending navigations...
+[1660114407.905][INFO]: Done waiting for pending navigations. Status: ok
+[1660114408.887][INFO]: Waiting for pending navigations...
+[1660114408.916][INFO]: Done waiting for pending navigations. Status: ok
+[1660114408.916][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114408.917][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "ac0542cf-f2ac-4791-8b9e-01d87bbb11f1",
+   "text": "$135,000",
+   "value": [ "$", "1", "3", "5", ",", "0", "0", "0" ]
+}
+[1660114408.917][INFO]: Waiting for pending navigations...
+[1660114409.037][INFO]: Done waiting for pending navigations. Status: ok
+[1660114409.483][INFO]: Waiting for pending navigations...
+[1660114409.494][INFO]: Done waiting for pending navigations. Status: ok
+[1660114409.495][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114409.496][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "aba54177-1fba-489c-bdcc-66f9e164f8cd",
+   "text": "https://www.zillow.com/homedetails/310-Old-Chatham-Rd-A111-South-Dennis-MA-02660/2062252359_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "3", "1", "0", "-", "O", "l", "d", "-", "C", "h", "a", "t", "h", "a", "m", "-", "R", "d", "-", "A", "1", "1", "1", "-", "S", "o", "u", "t", "h", "-", "D", "e", "n", "n", "i", "s", "-", "M", "A", "-", "0", "2", "6", "6", "0", "/", "2", "0", "6", "2", "2", "5", "2", "3", "5", "9", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114409.496][INFO]: Waiting for pending navigations...
+[1660114409.498][INFO]: Done waiting for pending navigations. Status: ok
+[1660114412.071][INFO]: Waiting for pending navigations...
+[1660114412.073][INFO]: Done waiting for pending navigations. Status: ok
+[1660114412.073][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114412.074][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114412.074][INFO]: Waiting for pending navigations...
+[1660114412.114][INFO]: Done waiting for pending navigations. Status: ok
+[1660114412.123][INFO]: Waiting for pending navigations...
+[1660114412.123][INFO]: Done waiting for pending navigations. Status: ok
+[1660114412.123][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "99c2d2b5-f8b6-4909-8364-b2fb64f70560"
+}
+[1660114412.124][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "99c2d2b5-f8b6-4909-8364-b2fb64f70560"
+}
+[1660114412.124][INFO]: Waiting for pending navigations...
+[1660114412.125][INFO]: Done waiting for pending navigations. Status: ok
+[1660114412.435][INFO]: Waiting for pending navigations...
+[1660114413.412][INFO]: Done waiting for pending navigations. Status: ok
+[1660114413.412][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114413.412][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114413.412][INFO]: Waiting for pending navigations...
+[1660114413.413][INFO]: Done waiting for pending navigations. Status: ok
+[1660114413.679][INFO]: Waiting for pending navigations...
+[1660114414.011][INFO]: Done waiting for pending navigations. Status: ok
+[1660114414.011][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114416.018][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114416.018][INFO]: Waiting for pending navigations...
+[1660114418.488][INFO]: Done waiting for pending navigations. Status: ok
+[1660114418.640][INFO]: Waiting for pending navigations...
+[1660114418.653][INFO]: Done waiting for pending navigations. Status: ok
+[1660114418.653][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "c767552f-fe9d-4717-a4e9-b24bf8315598"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "82f95824-4488-4867-9796-7277281d6df2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "763f3425-0aee-411b-9af5-43600e8eb302"
+} ]
+[1660114418.654][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "c767552f-fe9d-4717-a4e9-b24bf8315598",
+   "text": "428 Main St UNIT 2-6, Dennis, MA 02638",
+   "value": [ "4", "2", "8", " ", "M", "a", "i", "n", " ", "S", "t", " ", "U", "N", "I", "T", " ", "2", "-", "6", ",", " ", "D", "e", "n", "n", "i", "s", ",", " ", "M", "A", " ", "0", "2", "6", "3", "8" ]
+}
+[1660114418.654][INFO]: Waiting for pending navigations...
+[1660114418.654][INFO]: Done waiting for pending navigations. Status: ok
+[1660114419.415][INFO]: Waiting for pending navigations...
+[1660114419.474][INFO]: Done waiting for pending navigations. Status: ok
+[1660114419.474][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114419.475][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "82f95824-4488-4867-9796-7277281d6df2",
+   "text": "$299,500",
+   "value": [ "$", "2", "9", "9", ",", "5", "0", "0" ]
+}
+[1660114419.475][INFO]: Waiting for pending navigations...
+[1660114419.483][INFO]: Done waiting for pending navigations. Status: ok
+[1660114419.971][INFO]: Waiting for pending navigations...
+[1660114420.070][INFO]: Done waiting for pending navigations. Status: ok
+[1660114420.070][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114420.071][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "763f3425-0aee-411b-9af5-43600e8eb302",
+   "text": "https://www.zillow.com/homedetails/428-Main-St-UNIT-2-6-Dennis-MA-02638/55871265_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "4", "2", "8", "-", "M", "a", "i", "n", "-", "S", "t", "-", "U", "N", "I", "T", "-", "2", "-", "6", "-", "D", "e", "n", "n", "i", "s", "-", "M", "A", "-", "0", "2", "6", "3", "8", "/", "5", "5", "8", "7", "1", "2", "6", "5", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114420.071][INFO]: Waiting for pending navigations...
+[1660114420.072][INFO]: Done waiting for pending navigations. Status: ok
+[1660114421.511][INFO]: Waiting for pending navigations...
+[1660114421.811][INFO]: Done waiting for pending navigations. Status: ok
+[1660114421.811][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114421.812][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114421.812][INFO]: Waiting for pending navigations...
+[1660114422.171][INFO]: Done waiting for pending navigations. Status: ok
+[1660114422.605][INFO]: Waiting for pending navigations...
+[1660114422.617][INFO]: Done waiting for pending navigations. Status: ok
+[1660114422.617][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b49eae20-a834-4ce5-a976-641ebc12e991"
+}
+[1660114422.618][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "b49eae20-a834-4ce5-a976-641ebc12e991"
+}
+[1660114422.618][INFO]: Waiting for pending navigations...
+[1660114422.916][INFO]: Done waiting for pending navigations. Status: ok
+[1660114423.508][INFO]: Waiting for pending navigations...
+[1660114424.398][INFO]: Done waiting for pending navigations. Status: ok
+[1660114424.398][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114424.399][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114424.399][INFO]: Waiting for pending navigations...
+[1660114424.399][INFO]: Done waiting for pending navigations. Status: ok
+[1660114424.627][INFO]: Waiting for pending navigations...
+[1660114424.959][INFO]: Done waiting for pending navigations. Status: ok
+[1660114424.959][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114426.965][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114426.965][INFO]: Waiting for pending navigations...
+[1660114429.618][INFO]: Done waiting for pending navigations. Status: ok
+[1660114429.761][INFO]: Waiting for pending navigations...
+[1660114429.794][INFO]: Done waiting for pending navigations. Status: ok
+[1660114429.794][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "efc30a8a-a51a-459a-87d9-411da2f66e23"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "05a46e06-f5c5-4596-9112-3ededa34a738"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "797ac3e2-281a-40bc-a877-9c4192aac0a7"
+} ]
+[1660114429.795][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "efc30a8a-a51a-459a-87d9-411da2f66e23",
+   "text": "126 Lower County Rd #4, Dennis Pt, MA 02639",
+   "value": [ "1", "2", "6", " ", "L", "o", "w", "e", "r", " ", "C", "o", "u", "n", "t", "y", " ", "R", "d", " ", "#", "4", ",", " ", "D", "e", "n", "n", "i", "s", " ", "P", "t", ",", " ", "M", "A", " ", "0", "2", "6", "3", "9" ]
+}
+[1660114429.795][INFO]: Waiting for pending navigations...
+[1660114429.795][INFO]: Done waiting for pending navigations. Status: ok
+[1660114430.584][INFO]: Waiting for pending navigations...
+[1660114430.610][INFO]: Done waiting for pending navigations. Status: ok
+[1660114430.610][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114430.611][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "05a46e06-f5c5-4596-9112-3ededa34a738",
+   "text": "$180,000",
+   "value": [ "$", "1", "8", "0", ",", "0", "0", "0" ]
+}
+[1660114430.611][INFO]: Waiting for pending navigations...
+[1660114430.617][INFO]: Done waiting for pending navigations. Status: ok
+[1660114431.058][INFO]: Waiting for pending navigations...
+[1660114431.132][INFO]: Done waiting for pending navigations. Status: ok
+[1660114431.133][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114431.133][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "797ac3e2-281a-40bc-a877-9c4192aac0a7",
+   "text": "https://www.zillow.com/homedetails/126-Lower-County-Rd-4-Dennis-Pt-MA-02639/2064812994_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "1", "2", "6", "-", "L", "o", "w", "e", "r", "-", "C", "o", "u", "n", "t", "y", "-", "R", "d", "-", "4", "-", "D", "e", "n", "n", "i", "s", "-", "P", "t", "-", "M", "A", "-", "0", "2", "6", "3", "9", "/", "2", "0", "6", "4", "8", "1", "2", "9", "9", "4", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114431.133][INFO]: Waiting for pending navigations...
+[1660114431.139][INFO]: Done waiting for pending navigations. Status: ok
+[1660114432.410][INFO]: Waiting for pending navigations...
+[1660114432.414][INFO]: Done waiting for pending navigations. Status: ok
+[1660114432.414][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114432.415][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114432.415][INFO]: Waiting for pending navigations...
+[1660114432.415][INFO]: Done waiting for pending navigations. Status: ok
+[1660114432.518][INFO]: Waiting for pending navigations...
+[1660114432.528][INFO]: Done waiting for pending navigations. Status: ok
+[1660114432.529][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "46a28df5-aa65-4d03-869d-1ca3b7e5702f"
+}
+[1660114432.529][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "46a28df5-aa65-4d03-869d-1ca3b7e5702f"
+}
+[1660114432.529][INFO]: Waiting for pending navigations...
+[1660114432.537][INFO]: Done waiting for pending navigations. Status: ok
+[1660114434.335][INFO]: Waiting for pending navigations...
+[1660114435.273][INFO]: Done waiting for pending navigations. Status: ok
+[1660114435.273][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114435.274][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114435.274][INFO]: Waiting for pending navigations...
+[1660114435.274][INFO]: Done waiting for pending navigations. Status: ok
+[1660114435.510][INFO]: Waiting for pending navigations...
+[1660114435.843][INFO]: Done waiting for pending navigations. Status: ok
+[1660114435.843][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114437.849][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114437.849][INFO]: Waiting for pending navigations...
+[1660114439.967][INFO]: Done waiting for pending navigations. Status: ok
+[1660114440.085][INFO]: Waiting for pending navigations...
+[1660114440.196][INFO]: Done waiting for pending navigations. Status: ok
+[1660114440.196][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "234663fd-6c8d-4c9b-a07a-d4bf70e5f941"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "89e56f52-7da3-4645-a621-821ca03c88fc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cabe6185-aed7-40e2-89f9-c0082472f8f9"
+} ]
+[1660114440.197][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "234663fd-6c8d-4c9b-a07a-d4bf70e5f941",
+   "text": "14 4th Ave, Pocasset, MA 02559",
+   "value": [ "1", "4", " ", "4", "t", "h", " ", "A", "v", "e", ",", " ", "P", "o", "c", "a", "s", "s", "e", "t", ",", " ", "M", "A", " ", "0", "2", "5", "5", "9" ]
+}
+[1660114440.197][INFO]: Waiting for pending navigations...
+[1660114440.286][INFO]: Done waiting for pending navigations. Status: ok
+[1660114441.017][INFO]: Waiting for pending navigations...
+[1660114441.078][INFO]: Done waiting for pending navigations. Status: ok
+[1660114441.078][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114441.079][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "89e56f52-7da3-4645-a621-821ca03c88fc",
+   "text": "$145,000",
+   "value": [ "$", "1", "4", "5", ",", "0", "0", "0" ]
+}
+[1660114441.079][INFO]: Waiting for pending navigations...
+[1660114441.086][INFO]: Done waiting for pending navigations. Status: ok
+[1660114441.379][INFO]: Waiting for pending navigations...
+[1660114441.395][INFO]: Done waiting for pending navigations. Status: ok
+[1660114441.395][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114441.396][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "cabe6185-aed7-40e2-89f9-c0082472f8f9",
+   "text": "https://www.zillow.com/homedetails/14-4th-Ave-Pocasset-MA-02559/2105262053_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "1", "4", "-", "4", "t", "h", "-", "A", "v", "e", "-", "P", "o", "c", "a", "s", "s", "e", "t", "-", "M", "A", "-", "0", "2", "5", "5", "9", "/", "2", "1", "0", "5", "2", "6", "2", "0", "5", "3", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114441.396][INFO]: Waiting for pending navigations...
+[1660114441.396][INFO]: Done waiting for pending navigations. Status: ok
+[1660114442.951][INFO]: Waiting for pending navigations...
+[1660114442.962][INFO]: Done waiting for pending navigations. Status: ok
+[1660114442.962][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114442.963][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114442.963][INFO]: Waiting for pending navigations...
+[1660114442.976][INFO]: Done waiting for pending navigations. Status: ok
+[1660114443.001][INFO]: Waiting for pending navigations...
+[1660114443.002][INFO]: Done waiting for pending navigations. Status: ok
+[1660114443.002][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5e8a75d5-51b8-4076-a5e8-c8b10fe25770"
+}
+[1660114443.003][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "5e8a75d5-51b8-4076-a5e8-c8b10fe25770"
+}
+[1660114443.003][INFO]: Waiting for pending navigations...
+[1660114443.003][INFO]: Done waiting for pending navigations. Status: ok
+[1660114443.584][INFO]: Waiting for pending navigations...
+[1660114445.934][INFO]: Done waiting for pending navigations. Status: ok
+[1660114445.934][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114445.934][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114445.934][INFO]: Waiting for pending navigations...
+[1660114445.935][INFO]: Done waiting for pending navigations. Status: ok
+[1660114446.177][INFO]: Waiting for pending navigations...
+[1660114446.504][INFO]: Done waiting for pending navigations. Status: ok
+[1660114446.504][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114448.510][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114448.510][INFO]: Waiting for pending navigations...
+[1660114451.020][INFO]: Done waiting for pending navigations. Status: ok
+[1660114451.182][INFO]: Waiting for pending navigations...
+[1660114451.190][INFO]: Done waiting for pending navigations. Status: ok
+[1660114451.190][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "ad6024a0-85a8-4e09-8238-b1dca248158d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7c8681ff-a252-405f-8afa-45952e09eeac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1748a77f-d7e3-486a-a87f-5f65d8bb046d"
+} ]
+[1660114451.191][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "ad6024a0-85a8-4e09-8238-b1dca248158d",
+   "text": "32 Buchanan Rd, East Wareham, MA 02538",
+   "value": [ "3", "2", " ", "B", "u", "c", "h", "a", "n", "a", "n", " ", "R", "d", ",", " ", "E", "a", "s", "t", " ", "W", "a", "r", "e", "h", "a", "m", ",", " ", "M", "A", " ", "0", "2", "5", "3", "8" ]
+}
+[1660114451.191][INFO]: Waiting for pending navigations...
+[1660114451.196][INFO]: Done waiting for pending navigations. Status: ok
+[1660114451.964][INFO]: Waiting for pending navigations...
+[1660114451.985][INFO]: Done waiting for pending navigations. Status: ok
+[1660114451.986][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114451.987][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "7c8681ff-a252-405f-8afa-45952e09eeac",
+   "text": "$165,000",
+   "value": [ "$", "1", "6", "5", ",", "0", "0", "0" ]
+}
+[1660114451.987][INFO]: Waiting for pending navigations...
+[1660114452.010][INFO]: Done waiting for pending navigations. Status: ok
+[1660114452.424][INFO]: Waiting for pending navigations...
+[1660114452.463][INFO]: Done waiting for pending navigations. Status: ok
+[1660114452.463][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114452.464][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "1748a77f-d7e3-486a-a87f-5f65d8bb046d",
+   "text": "https://www.zillow.com/homedetails/32-Buchanan-Rd-East-Wareham-MA-02538/2063481992_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "3", "2", "-", "B", "u", "c", "h", "a", "n", "a", "n", "-", "R", "d", "-", "E", "a", "s", "t", "-", "W", "a", "r", "e", "h", "a", "m", "-", "M", "A", "-", "0", "2", "5", "3", "8", "/", "2", "0", "6", "3", "4", "8", "1", "9", "9", "2", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114452.464][INFO]: Waiting for pending navigations...
+[1660114452.466][INFO]: Done waiting for pending navigations. Status: ok
+[1660114453.885][INFO]: Waiting for pending navigations...
+[1660114453.896][INFO]: Done waiting for pending navigations. Status: ok
+[1660114453.896][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114453.896][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114453.897][INFO]: Waiting for pending navigations...
+[1660114453.897][INFO]: Done waiting for pending navigations. Status: ok
+[1660114453.935][INFO]: Waiting for pending navigations...
+[1660114453.935][INFO]: Done waiting for pending navigations. Status: ok
+[1660114453.935][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0af75303-4b90-4716-9b50-bb9e97737813"
+}
+[1660114453.936][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "0af75303-4b90-4716-9b50-bb9e97737813"
+}
+[1660114453.936][INFO]: Waiting for pending navigations...
+[1660114453.936][INFO]: Done waiting for pending navigations. Status: ok
+[1660114455.651][INFO]: Waiting for pending navigations...
+[1660114456.707][INFO]: Done waiting for pending navigations. Status: ok
+[1660114456.707][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114456.709][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114456.709][INFO]: Waiting for pending navigations...
+[1660114456.709][INFO]: Done waiting for pending navigations. Status: ok
+[1660114456.925][INFO]: Waiting for pending navigations...
+[1660114457.256][INFO]: Done waiting for pending navigations. Status: ok
+[1660114457.256][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114459.262][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114459.262][INFO]: Waiting for pending navigations...
+[1660114461.584][INFO]: Done waiting for pending navigations. Status: ok
+[1660114461.704][INFO]: Waiting for pending navigations...
+[1660114461.813][INFO]: Done waiting for pending navigations. Status: ok
+[1660114461.813][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "bb440f48-f73b-4131-955f-7b45b2c30c5b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d09a495f-bba5-4529-8306-77057828b018"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2cf41989-d03e-4f53-9026-afdf5113c8b8"
+} ]
+[1660114461.814][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "bb440f48-f73b-4131-955f-7b45b2c30c5b",
+   "text": "428 Main Street UNIT 2-6, West Dennis, MA 02670",
+   "value": [ "4", "2", "8", " ", "M", "a", "i", "n", " ", "S", "t", "r", "e", "e", "t", " ", "U", "N", "I", "T", " ", "2", "-", "6", ",", " ", "W", "e", "s", "t", " ", "D", "e", "n", "n", "i", "s", ",", " ", "M", "A", " ", "0", "2", "6", "7", "0" ]
+}
+[1660114461.814][INFO]: Waiting for pending navigations...
+[1660114461.927][INFO]: Done waiting for pending navigations. Status: ok
+[1660114462.850][INFO]: Waiting for pending navigations...
+[1660114462.876][INFO]: Done waiting for pending navigations. Status: ok
+[1660114462.876][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114462.877][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "d09a495f-bba5-4529-8306-77057828b018",
+   "text": "$299,500",
+   "value": [ "$", "2", "9", "9", ",", "5", "0", "0" ]
+}
+[1660114462.877][INFO]: Waiting for pending navigations...
+[1660114462.904][INFO]: Done waiting for pending navigations. Status: ok
+[1660114463.372][INFO]: Waiting for pending navigations...
+[1660114463.418][INFO]: Done waiting for pending navigations. Status: ok
+[1660114463.418][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114463.419][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "2cf41989-d03e-4f53-9026-afdf5113c8b8",
+   "text": "https://www.zillow.com/homedetails/428-Main-St-2-6-West-Dennis-MA-02670/2062365129_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "4", "2", "8", "-", "M", "a", "i", "n", "-", "S", "t", "-", "2", "-", "6", "-", "W", "e", "s", "t", "-", "D", "e", "n", "n", "i", "s", "-", "M", "A", "-", "0", "2", "6", "7", "0", "/", "2", "0", "6", "2", "3", "6", "5", "1", "2", "9", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114463.419][INFO]: Waiting for pending navigations...
+[1660114463.422][INFO]: Done waiting for pending navigations. Status: ok
+[1660114464.707][INFO]: Waiting for pending navigations...
+[1660114464.708][INFO]: Done waiting for pending navigations. Status: ok
+[1660114464.708][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114464.709][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114464.709][INFO]: Waiting for pending navigations...
+[1660114464.710][INFO]: Done waiting for pending navigations. Status: ok
+[1660114464.717][INFO]: Waiting for pending navigations...
+[1660114464.717][INFO]: Done waiting for pending navigations. Status: ok
+[1660114464.717][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "314acf79-d6f7-4966-8add-24bfaa307c14"
+}
+[1660114464.718][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "314acf79-d6f7-4966-8add-24bfaa307c14"
+}
+[1660114464.718][INFO]: Waiting for pending navigations...
+[1660114464.718][INFO]: Done waiting for pending navigations. Status: ok
+[1660114466.665][INFO]: Waiting for pending navigations...
+[1660114467.730][INFO]: Done waiting for pending navigations. Status: ok
+[1660114467.730][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114467.731][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Navigate {
+   "url": "https://forms.gle/7XYQHfCU29Rfs6fg6"
+}
+[1660114467.731][INFO]: Waiting for pending navigations...
+[1660114467.732][INFO]: Done waiting for pending navigations. Status: ok
+[1660114467.973][INFO]: Waiting for pending navigations...
+[1660114468.301][INFO]: Done waiting for pending navigations. Status: ok
+[1660114468.301][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Navigate
+[1660114470.303][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElements {
+   "using": "css selector",
+   "value": "input[type=\"text\"]"
+}
+[1660114470.303][INFO]: Waiting for pending navigations...
+[1660114472.460][INFO]: Done waiting for pending navigations. Status: ok
+[1660114472.579][INFO]: Waiting for pending navigations...
+[1660114472.684][INFO]: Done waiting for pending navigations. Status: ok
+[1660114472.684][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "640ca0bc-742d-42d4-aca6-49e47ea42a11"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a3b3db4b-b93e-435d-92fd-ebecb46e3b4c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ea54debd-4c63-4a96-a3d5-e14970677e8d"
+} ]
+[1660114472.685][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "640ca0bc-742d-42d4-aca6-49e47ea42a11",
+   "text": "2 Jenifer Dr, East Wareham, MA 02538",
+   "value": [ "2", " ", "J", "e", "n", "i", "f", "e", "r", " ", "D", "r", ",", " ", "E", "a", "s", "t", " ", "W", "a", "r", "e", "h", "a", "m", ",", " ", "M", "A", " ", "0", "2", "5", "3", "8" ]
+}
+[1660114472.685][INFO]: Waiting for pending navigations...
+[1660114472.774][INFO]: Done waiting for pending navigations. Status: ok
+[1660114473.534][INFO]: Waiting for pending navigations...
+[1660114473.574][INFO]: Done waiting for pending navigations. Status: ok
+[1660114473.574][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114473.575][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "a3b3db4b-b93e-435d-92fd-ebecb46e3b4c",
+   "text": "$159,000",
+   "value": [ "$", "1", "5", "9", ",", "0", "0", "0" ]
+}
+[1660114473.575][INFO]: Waiting for pending navigations...
+[1660114473.597][INFO]: Done waiting for pending navigations. Status: ok
+[1660114473.991][INFO]: Waiting for pending navigations...
+[1660114474.059][INFO]: Done waiting for pending navigations. Status: ok
+[1660114474.059][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114474.060][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND TypeElement {
+   "id": "ea54debd-4c63-4a96-a3d5-e14970677e8d",
+   "text": "https://www.zillow.com/homedetails/2-Jenifer-Dr-East-Wareham-MA-02538/2063482011_zpid/",
+   "value": [ "h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "z", "i", "l", "l", "o", "w", ".", "c", "o", "m", "/", "h", "o", "m", "e", "d", "e", "t", "a", "i", "l", "s", "/", "2", "-", "J", "e", "n", "i", "f", "e", "r", "-", "D", "r", "-", "E", "a", "s", "t", "-", "W", "a", "r", "e", "h", "a", "m", "-", "M", "A", "-", "0", "2", "5", "3", "8", "/", "2", "0", "6", "3", "4", "8", "2", "0", "1", "1", "_", "z", "p", "i", "d", "/" ]
+}
+[1660114474.060][INFO]: Waiting for pending navigations...
+[1660114474.060][INFO]: Done waiting for pending navigations. Status: ok
+[1660114475.373][INFO]: Waiting for pending navigations...
+[1660114475.376][INFO]: Done waiting for pending navigations. Status: ok
+[1660114475.376][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE TypeElement
+[1660114475.377][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[role=\"button\"]"
+}
+[1660114475.377][INFO]: Waiting for pending navigations...
+[1660114475.381][INFO]: Done waiting for pending navigations. Status: ok
+[1660114475.433][INFO]: Waiting for pending navigations...
+[1660114475.434][INFO]: Done waiting for pending navigations. Status: ok
+[1660114475.434][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f04956f4-9f91-457e-ad1c-43a5a2d0db3b"
+}
+[1660114475.435][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND ClickElement {
+   "id": "f04956f4-9f91-457e-ad1c-43a5a2d0db3b"
+}
+[1660114475.435][INFO]: Waiting for pending navigations...
+[1660114475.435][INFO]: Done waiting for pending navigations. Status: ok
+[1660114475.998][INFO]: Waiting for pending navigations...
+[1660114478.230][INFO]: Done waiting for pending navigations. Status: ok
+[1660114478.230][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE ClickElement
+[1660114478.231][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] COMMAND Quit {
+}
+[1660114478.281][INFO]: [2a4d1b4a44abca12a80dca08bc73c351] RESPONSE Quit
