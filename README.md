@@ -31,3 +31,5 @@ Many of the project days are
 <li> add when you have time</li>
 <li> etc </li>
 <li><em>Day 62</em> - Coffee & Wifi. Using Bootstrap quickforms WTForms Flask-WTF, and extending the bootstrap/base.html and overloading the css. Was going to use a csv.DictWriter for the WTForm, but the csv did not have an ending "\n", so would continue the last line on the first add. I would have thought that was the point of adding keys to the DictWriter (so it could place values in the correct column), but this is not a panda. Did what the class solution suggested, no need to use csv class to write with a ",".join. Continuing using Selenium based unittests a la TDD.</li>
+<li><em>Day 63</em> - 
+</ul>
