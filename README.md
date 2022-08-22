@@ -20,7 +20,7 @@ Many of the project days are
 <li><em>Day 29-30</em> - password-manager. More tkinter. add json.</li>
 <li><em>Day 31</em> - flash-card app. More tkinter</li>
 <li><em>Day 32</em> - Birthday-Wisher. Sends a random mail-merged birthday email to contacts</li>
-<li><em>Day 33</em> - issoverhead space station notifier. Using apis. I started to use separate config files, here a config.py.</li>
+<li><em>Day 33</em> - issoverhead space station notifier. Also kanye-quotes app. Using apis, kanye used tkinter. I started to use separate config file in iss, a config.py.</li>
 <li><em>Day 34</em> - quizzler-app. Using trivia apis and putting on tkinter quiz app. Started to use toml as a better config loader.</li>
 <li><em>Day 35</em> - rain_alert. Use openweather api and twilio app to text a rain alert.</li>
 <li><em>Day 36</em> - stock-news app. Another api and json nav. Send texts with twilio. Started from extrahard. Like bragging about tying my shoes all by myself.</li>
@@ -31,5 +31,5 @@ Many of the project days are
 <li> add when you have time</li>
 <li> etc </li>
 <li><em>Day 62</em> - Coffee & Wifi. Using Bootstrap quickforms WTForms Flask-WTF, and extending the bootstrap/base.html and overloading the css. Was going to use a csv.DictWriter for the WTForm, but the csv did not have an ending "\n", so would continue the last line on the first add. I would have thought that was the point of adding keys to the DictWriter (so it could place values in the correct column), but this is not a panda. Did what the class solution suggested, no need to use csv class to write with a ",".join. Continuing using Selenium based unittests a la TDD.</li>
-<li><em>Day 63</em> - 
+<li><em>Day 63</em> - library-start. Using SQLAlchemy for CRUD saving books to a library.db. Discovered that WTForms are difficult to get on single line. inline type doesn't do it. Was just as easy to use flask.request
 </ul>

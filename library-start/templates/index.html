@@ -1,15 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Library</title>
-</head>
-<body>
-<h1>My Library</h1>
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}Library{% endblock %}
+
+
+{% block content %}
+<div class="container px-4 px-lg-5">
+    <h1>My Library</h1>
+
+     {% if books|length > 0 %}
     <ul>
-        <li></li>
+        {% for book in books %}
+            <li>{{ book.title }} - {{ book.author }} - {{ book.rating }}/10 
+                <a href="{{ url_for('edit', id=book.id) }}">Change Rating</a></li>
+        {% endfor %}
     </ul>
+    {% else %}
+        <p>You have no books in your library.</p>
+    {% endif %}
     
-<a href="">Add New Book</a>
-</body>
-</html>
+    <a href="{{ url_for('add') }}">Add New Book</a>
+</div>
+{% endblock %}
