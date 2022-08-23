@@ -48,10 +48,21 @@ def add():
         return redirect(url_for('home'))
     return render_template('add.html')
 
-@app.route('/edit/<float:id>', methods=['GET', 'POST'])
+@app.route('/edit/<int:id>', methods=['GET', 'POST'])
 def edit(id):
     book = Book.query.get_or_404(id)
+    if request.method == 'POST':
+        book.rating = request.form['rating']
+        db.session.commit()
+        return redirect(url_for('home'))
     return render_template('edit.html', book=book)
+
+@app.route('/delete/<int:id>')
+def delete(id):
+    book = Book.query.get_or_404(id)
+    db.session.delete(book)
+    db.session.commit()
+    return redirect(url_for('home'))
 
 if __name__ == "__main__":
     app.run(debug=True)

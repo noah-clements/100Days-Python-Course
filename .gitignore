@@ -7,6 +7,7 @@ bootstrap*
 html5up*
 *.log
 *.pyc
+*.db
 issoverhead/config.py
 .project_config
 .python_config
