@@ -35,14 +35,15 @@ Many of the project days are
 <li><em>Day 49</em> - selenium. Automated job-search and application (?!?!?!). I just auto-saved, then used selenium to auto-remove all saved jobs.
 </li>
 <li><em>Day 50</em> - skipped. More selenium. I just followed teacher's code. Auto-Tinder swiping bot. You must be fucking kidding me. I like my wife, thank you very much.</li>
-<li><em>Day 51</em> - skipped. More selenium. I just followed along with teacher's code. Automatic twitter complaint bot for internet speed. I am using selenium in my unit tests </li>
+<li><em>Day 51</em> - skipped. More selenium. I just followed along with teacher's code. Automatic twitter complaint bot for internet speed. </li>
 <li><em>Day 52</em> - skipped. More selenium. Again, one must question the choices of selenium automation projects. Here it is an automatic instagram follower bot. </li>
 <li><em>Day 53</em> - property-search. Selenium "capstone". Finally, a project that won't cause social media (and IRL) problems. Search for properties in Zillow, scrape data, and put them into a Google Sheet</li>
 <li><em>Day 54</em> - hello_flask. flask, passing and nesting functions, python decorator functions.</li>
-<li><em>Day 55</em> - </li>
-<li><em>Day 56</em> - </li>
-<li><em>Day 57</em> -  add when you have time</li>
+<li><em>Day 55</em> - hello_flask. continued. guess a number game.</li>
+<li><em>Day 56</em> - name-card. flask & html5up template</li>
+<li><em>Day 57</em> - day57 folder. using apis in flask - age & gender guess site. blog-templating. Flask and jinja. Use fake blog data from api</li>
 <li><em>Day 58</em> -  etc </li>
+
 <li><em>Day 62</em> - Coffee & Wifi. Using Bootstrap quickforms WTForms Flask-WTF, and extending the bootstrap/base.html and overloading the css. Was going to use a csv.DictWriter for the WTForm, but the csv did not have an ending "\n", so would continue the last line on the first add. I would have thought that was the point of adding keys to the DictWriter (so it could place values in the correct column), but this is not a panda. Did what the class solution suggested, no need to use csv class to write with a ",".join. Continuing using Selenium based unittests a la TDD.</li>
 <li><em>Day 63</em> - library-start. Using SQLAlchemy for CRUD saving books to a library.db. The full CRUD. Discovered that WTForms are difficult to get on single line. inline type doesn't do it. Was just as easy to use flask.request. Used pytest rather than unittest. </li>
 </ul>
