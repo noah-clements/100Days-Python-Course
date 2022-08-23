@@ -42,8 +42,9 @@ Many of the project days are
 <li><em>Day 55</em> - hello_flask. continued. guess a number game.</li>
 <li><em>Day 56</em> - name-card. flask & html5up template</li>
 <li><em>Day 57</em> - day57 folder. using apis in flask - age & gender guess site. blog-templating. Flask and jinja. Use fake blog data from api</li>
-<li><em>Day 58</em> -  etc </li>
-
+<li><em>Day 58</em> -  TinDog. this was kind of fun. Would love to make it dynamic. Bootstrap, CSS styling, etc </li>
+<li><em>Day 59-60</em> - upgraded blog. "Blog Capstone" Use templates, bootstrap, css, scraping. I used the json from my personal wordpress blog. Day 60, Create contact form and email info. Put in selenium unit-tests of site.</li>
+<li><em>Day 61</em> - flask-secrets. Flask-WTF, Bootstrap inherited template, quickform</li>
 <li><em>Day 62</em> - Coffee & Wifi. Using Bootstrap quickforms WTForms Flask-WTF, and extending the bootstrap/base.html and overloading the css. Was going to use a csv.DictWriter for the WTForm, but the csv did not have an ending "\n", so would continue the last line on the first add. I would have thought that was the point of adding keys to the DictWriter (so it could place values in the correct column), but this is not a panda. Did what the class solution suggested, no need to use csv class to write with a ",".join. Continuing using Selenium based unittests a la TDD.</li>
 <li><em>Day 63</em> - library-start. Using SQLAlchemy for CRUD saving books to a library.db. The full CRUD. Discovered that WTForms are difficult to get on single line. inline type doesn't do it. Was just as easy to use flask.request. Used pytest rather than unittest. </li>
 </ul>
