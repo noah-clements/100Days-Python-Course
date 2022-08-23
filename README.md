@@ -27,7 +27,15 @@ Many of the project days are
 <li><em>Day 37</em> - habit-tracker. More apis. HTTP Header authentication.</li>
 <li><em>Day 38</em> - workout-tracker. More apis, using google sheet.</li>
 <li><em>Day 39-40</em> - flight deals. Use Kiwi, google sheets, twilio, email.</li>
-<li><em>Day 41-44</em> - web-foundation. html & css basic tutorials. A silly static page published to pages at https://noah-clements.github.io/100-Days-site/.
+<li><em>Day 41-44</em> - web-foundation. html & css basic tutorials. A silly static page published to pages at https://noah-clements.github.io/100-Days-site/.</li>
+<li><em>Day 45</em> - 100Movies and bs4. Beautiful Soup web scraping. Top 100 movies and Ycombinator news articles.</li>
+<li><em>Day 46</em> - blast-from-past. Use Beautiful Soup to scrape Billboard Top 100 Songs for a particular day in the past and use Spotify API to search for the songs and create a playlist. Cute way to tell your loved ones you were thinking of then (their birthday, anniversary, etc)</li>
+<li><em>Day 47</em> - price-tracker. More soup. Scrape amazon price for st and email if below x price.</li>
+<li><em>Day 48</em> - selenium. play the cookie clicker game. Manually it hurt my wrist.</li>
+<li><em>Day 49</em> - selenium. Automated job-search and application (?!?!?!). I just auto-saved, then used selenium to auto-remove all saved jobs.
+</li>
+<li><em>Day 50</em> - skipped. More selenium. I just followed teacher's code. Auto-Tinder swiping bot. You must be fucking kidding me. I like my wife, thank you very much.</li>
+<li><em>Day 51</em> - skipped. More selenium. I just followed along with teacher's code. Automatic twitter complaint bot for internet speed. I am using selenium in my unit tests </li>
 <li> add when you have time</li>
 <li> etc </li>
 <li><em>Day 62</em> - Coffee & Wifi. Using Bootstrap quickforms WTForms Flask-WTF, and extending the bootstrap/base.html and overloading the css. Was going to use a csv.DictWriter for the WTForm, but the csv did not have an ending "\n", so would continue the last line on the first add. I would have thought that was the point of adding keys to the DictWriter (so it could place values in the correct column), but this is not a panda. Did what the class solution suggested, no need to use csv class to write with a ",".join. Continuing using Selenium based unittests a la TDD.</li>
