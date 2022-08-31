@@ -51,4 +51,6 @@ Many of the project days are
 <li><em>Day 65</em> - web design. The Mutiny. Design a hotel site on Canva. Mine is here: https://www.canva.com/design/DAFKY24CHZI/Prvrfq0PYSf1PL5L_xKw7w/view?website#1 . Mobile should definitely use scroll site rather than menu. https://www.canva.com/design/DAFKY24CHZI/Prvrfq0PYSf1PL5L_xKw7w/view?website#2:home Think would need to have the colors in the photos blend in together more though.</li>
 <li><em>Day 66</em> - cafe-api. Create a simple api for listing, adding, updating, and deleting cafes from a database. Used postman for testing and automatic documentation.</li>
 <li><em>Day 67</em> - RESTful-blog. Create Read Update Delete (and list) blog posts in db using SQLAlchemy, WTForms, and ckeditor. Would like to refactor to separate out the model, the db, and the form. MVC and App factory patterns. Would also like to take the blog scraping from days 59-60 and do an initial import of posts. So an import function from wordpress.</li>
+<li><em>Day 68</em> - flask-auth. Authentication. Weurkzeug password hashing. flask-login</li>
+<li><em>Day 69</em> - </li>
 </ul>
