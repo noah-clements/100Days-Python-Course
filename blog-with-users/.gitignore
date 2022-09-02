@@ -1,0 +1,5 @@
+*.log
+*.pyc
+*.db
+
+.project_config

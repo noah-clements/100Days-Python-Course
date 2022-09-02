@@ -23,11 +23,11 @@ def create_app(test_config=None):
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     if test_config is None:
-        # load the instance config, if it exists, when not testing
-        app.config.from_file(".project_config", load=toml.load, silent=True)
         # get production setup from os
         app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
         app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL")
+        # load the instance config, if it exists, when not testing
+        app.config.from_file(".project_config", load=toml.load, silent=True)
     
     else:
         # load the test config if passed in
