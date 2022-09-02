@@ -1,13 +1,22 @@
 import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from flask_ckeditor import CKEditor
 import toml
+from flask_gravatar import Gravatar
 
 db = SQLAlchemy()
+ckeditor = CKEditor()
+gravatar = Gravatar()
 
 def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True )
     app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+
+    # initialize ckeditor (full-featured text area)
+    ckeditor.init_app(app)
+    # initialize Gravatar (images for users)
+    gravatar.init_app(app)
 
     ##CONNECT TO DB
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'

@@ -21,6 +21,7 @@ class BlogPost(db.Model):
     date = db.Column(db.String(250), nullable=False)
     body = db.Column(db.Text, nullable=False)
     img_url = db.Column(db.String(250), nullable=False)
+    comments = relationship("Comment", back_populates="parent_post")
 
     @staticmethod
     def get_posts(by_author:str = None) ->list['BlogPost']:
@@ -28,7 +29,10 @@ class BlogPost(db.Model):
             return BlogPost.query.filter_by(name=by_author).order_by(desc(BlogPost.id)).all()
         else:
             return BlogPost.query.order_by(desc(BlogPost.id)).all()
-    
+
+    def add(self):
+        db.session.add(self)
+        db.session.commit()
 
 class User(UserMixin, db.Model):
     __tablename__ = "users"
@@ -36,6 +40,7 @@ class User(UserMixin, db.Model):
     email = db.Column(db.String(100), unique=True)
     password = db.Column(db.String(100))
     name = db.Column(db.String(1000))
+    comments = relationship("Comment", back_populates="author")
     posts = relationship("BlogPost", back_populates="author")
 
     def to_dict(self):
@@ -44,16 +49,22 @@ class User(UserMixin, db.Model):
             'email': self.email,
             'password': self.password
         }
+
+class Comment(db.Model):
+    __tablename__ = "comments"
+    id = db.Column(db.Integer, primary_key=True)
+    author_id = db.Column(db.Integer, db.ForeignKey("users.id"))
+    author = relationship("User", back_populates="comments")
+    post_id = db.Column(db.Integer, db.ForeignKey("blog_posts.id"))
+    parent_post = relationship("BlogPost", back_populates="comments")
+    text = db.Column(db.Text, nullable=False)
+
+    def add(self):
+        db.session.add(self)
+        db.session.commit()
     
-#Lines below only required once, when creating DB. 
-# db.drop_all()
-# db.create_all()
-
-# import some blog posts
+# import some blog posts - as part of init
 def load_posts():
-    db.drop_all()
-    db.create_all()
-
     blog_url = 'https://theclementsfirm.com//wp-json/wp/v2/posts'
     resp = requests.get(blog_url)
     resp.raise_for_status()
@@ -112,6 +123,8 @@ def load_posts():
 @click.command('init-db')
 def init_db_command():
     """Clear the existing data and create new tables."""
+    db.drop_all()
+    db.create_all()
     load_posts()
     click.echo('Initialized the database.')
 
