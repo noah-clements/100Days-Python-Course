@@ -3,101 +3,33 @@ from flask_bootstrap import Bootstrap
 from flask_ckeditor import CKEditor
 from datetime import date
 from werkzeug.security import generate_password_hash, check_password_hash
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.orm import relationship
-from flask_login import UserMixin, login_user, LoginManager, login_required, current_user, logout_user
-from forms import CreatePostForm, RegisterForm, LoginForm
+# from flask_sqlalchemy import SQLAlchemy
+# from sqlalchemy.orm import relationship
+# from sqlalchemy import desc
+from flask_login import login_user, LoginManager, login_required, current_user, logout_user
+
 from flask_gravatar import Gravatar
 from functools import wraps
-import requests
-from datetime import datetime
 
-app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+
+from forms import CreatePostForm, RegisterForm, LoginForm
+from bloggr.models import BlogPost, User
+from bloggr import create_app, db
+
+app = create_app()
+# app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
-##CONNECT TO DB
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
+##CONNECT TO DB - now done in app factory
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
+# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+# db = SQLAlchemy(app)
 
 login_manager = LoginManager()
 login_manager.init_app(app)
 
-##CONFIGURE TABLES
 
-class BlogPost(db.Model):
-    __tablename__ = "blog_posts"
-    id = db.Column(db.Integer, primary_key=True)
-    author_id = db.Column(db.Integer, db.ForeignKey("users.id"))
-    author = relationship("User", back_populates="posts")
-    title = db.Column(db.String(250), unique=True, nullable=False)
-    subtitle = db.Column(db.String(250), nullable=False)
-    date = db.Column(db.String(250), nullable=False)
-    body = db.Column(db.Text, nullable=False)
-    img_url = db.Column(db.String(250), nullable=False)
-    
-
-class User(UserMixin, db.Model):
-    __tablename__ = "users"
-    id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(100), unique=True)
-    password = db.Column(db.String(100))
-    name = db.Column(db.String(1000))
-    posts = relationship("BlogPost", back_populates="author")
-
-    def to_dict(self):
-        return {
-            'name': self.name,
-            'email': self.email,
-            'password': self.password
-        }
-    
-#Lines below only required once, when creating DB. 
-# db.drop_all()
-# db.create_all()
-
-# import some blog posts
-def load_posts():
-    blog_url = 'https://theclementsfirm.com//wp-json/wp/v2/posts'
-    resp = requests.get(blog_url)
-    resp.raise_for_status()
-    post_json = resp.json()
-
-    author = User(
-        email="noahclements@gmail.com",
-        name="Noah Clements",
-        password=generate_password_hash("BubbaLubba1!", salt_length=8)
-    )
-    db.session.add(author)
-    db.session.commit()
-    for post in post_json:
-        img = post['uagb_featured_image_src']['full']
-        if img:
-            img_0 = img[0]
-        else:
-            img_0 = ''
-
-        if (subtitle:=post['uagb_excerpt']) is None:
-            subtitle = ""
-            
-        blog_post = BlogPost(
-            author_id=1,
-            author=author,
-            title=post['title']['rendered'],
-            subtitle=subtitle,
-            date=datetime.strptime(post['date'], "%Y-%m-%dT%H:%M:%S").strftime("%B %d, %Y"),
-            body=post['content']['rendered'],
-            img_url=img_0
-        )
-        try:
-            db.session.add(blog_post)
-            db.session.commit()
-        except:
-            pass
-# only need to do this on first load, if dropped and created tables.    
-# load_posts()
 
 @login_manager.user_loader
 def load_user(user_id):
@@ -115,7 +47,7 @@ def admin_only(function):
 
 @app.route('/')
 def get_all_posts():
-    posts = BlogPost.query.all()
+    posts = BlogPost.get_posts()
     return render_template("index.html", all_posts=posts)
 
 
