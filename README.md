@@ -53,4 +53,7 @@ Many of the project days are
 <li><em>Day 67</em> - RESTful-blog. Create Read Update Delete (and list) blog posts in db using SQLAlchemy, WTForms, and ckeditor. Would like to refactor to separate out the model, the db, and the form. MVC and App factory patterns. Would also like to take the blog scraping from days 59-60 and do an initial import of posts. So an import function from wordpress.</li>
 <li><em>Day 68</em> - flask-auth. Authentication. Weurkzeug password hashing. flask-login</li>
 <li><em>Day 69</em> - blog-with-users. Adding users to allow comments on a blog. Using Authentication, etc. Added in the code from upgraded-blog to import blog posts from my wordpress site. Then I used the orm models to put the posts into database on first load.</li>
+<li><em>Day 70</em> - deploy. Convert to Postgres. Got drop, create, and load db working remotely (Render would time out). Used Render instead of Heroku, since Heroku is no longer free.Blog at https://bloggr-fw86.onrender.com/</70>
+<li><em>Day 71</em> - Jupyter notebooks and pandas. Using Google Collab </li>
+<li><em>Day 72</em> - </li>
 </ul>
