@@ -55,5 +55,7 @@ Many of the project days are
 <li><em>Day 69</em> - blog-with-users. Adding users to allow comments on a blog. Using Authentication, etc. Added in the code from upgraded-blog to import blog posts from my wordpress site. Then I used the orm models to put the posts into database on first load.</li>
 <li><em>Day 70</em> - deploy. Convert to Postgres. Got drop, create, and load db working remotely (Render would time out). Used Render instead of Heroku, since Heroku is no longer free.Blog at https://bloggr-fw86.onrender.com/</70>
 <li><em>Day 71</em> - Jupyter notebooks and pandas. Using Google Collab </li>
-<li><em>Day 72</em> - </li>
+<li><em>Day 72</em> - Jupyter notebooks, pandas, matplotlib. Used VSCode jupyter, just as easy.</li>
+<li><em>Day 73</em> - </li>
+<li><em>Day 74</em> - </li>
 </ul>
