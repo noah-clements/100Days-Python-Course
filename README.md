@@ -57,5 +57,6 @@ Many of the project days are
 <li><em>Day 71</em> - "Data science". Jupyter notebooks and pandas. Using Google Collab. Some things never change, like the need for every discipline to try to create what they see as more prestigious euphemisms for what they do. Obsfucation in the service of self-importance. "We're not simple analysts, but a-hem <em>scientists</em>!!!"</li>
 <li><em>Day 72</em> - "Data science". Jupyter notebooks, pandas, matplotlib. Used VSCode jupyter, just as easy.</li>
 <li><em>Day 73</em> - "Data science". More pandas, jupyter, markdown. Legos data. Big lesson for me was pandas <a href='https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.agg.html'>agg</a> and <a href='https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html'>merge.</a> See also this <a href='https://stackoverflow.com/questions/53645882/pandas-merging-101'>stack-overflow page for merge.</a></li>
-<li><em>Day 74</em> - </li>
+<li><em>Day 74</em> - "Data science". Google data trends.  More Matplotlib. Downloaded own search trend data and FRED Unemployment data, and merged to create updated analysis.</li>
+<li><em>Day 75</em> - </li>
 </ul>
