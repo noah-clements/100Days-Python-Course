@@ -58,5 +58,6 @@ Many of the project days are
 <li><em>Day 72</em> - "Data science". Jupyter notebooks, pandas, matplotlib. Used VSCode jupyter, just as easy.</li>
 <li><em>Day 73</em> - "Data science". More pandas, jupyter, markdown. Legos data. Big lesson for me was pandas <a href='https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.agg.html'>agg</a> and <a href='https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html'>merge.</a> See also this <a href='https://stackoverflow.com/questions/53645882/pandas-merging-101'>stack-overflow page for merge.</a></li>
 <li><em>Day 74</em> - "Data science". Google data trends.  More Matplotlib. Downloaded own search trend data and FRED Unemployment data, and merged to create updated analysis.</li>
-<li><em>Day 75</em> - </li>
+<li><em>Day 75</em> - Using plotly with pandas. Analysis of Google App store trends, etc.</li>
+<li><em>Day 76</em> - </li>
 </ul>
