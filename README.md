@@ -41,11 +41,11 @@ Many of the project days take longer than one hour, day, etc. I guess that means
 - *Day 55* - hello_flask. continued. guess a number game.
 - *Day 56* - name-card. flask & html5up template
 - *Day 57* - day57 folder. using apis in flask - age & gender guess site. blog-templating. Flask and jinja. Use fake blog data from api
-- *Day 58* -  TinDog. this was kind of fun. Would love to make it dynamic. Bootstrap, CSS styling, etc 
+- *Day 58* -  TinDog. this was kind of fun. Would love to make it dynamic. Bootstrap, CSS styling, etc.
 - *Day 59-60* - upgraded blog. "Blog Capstone" Use templates, bootstrap, css, scraping. I used the json from my personal wordpress blog. Day 60, Create contact form and email info. Put in selenium unit-tests of site.
 - *Day 61* - flask-secrets. Flask-WTF, Bootstrap inherited template, quickform
 - *Day 62* - Coffee & Wifi. Using Bootstrap quickforms WTForms Flask-WTF, and extending the bootstrap/base.html and overloading the css. Was going to use a csv.DictWriter for the WTForm, but the csv did not have an ending "\n", so would continue the last line on the first add. I would have thought that was the point of adding keys to the DictWriter (so it could place values in the correct column), but this is not a panda. Did what the class solution suggested, no need to use csv class to write with a ",".join. Continuing using Selenium based unittests a la TDD.
-- *Day 63* - library-start. Using SQLAlchemy for CRUD saving books to a library.db. The full CRUD. Discovered that WTForms are difficult to get on single line. inline type doesn't do it. Was just as easy to use flask.request. Used pytest rather than unittest. 
+- *Day 63* - library-start. Using SQLAlchemy for CRUD saving books to a library.db. The full CRUD. Discovered that WTForms are difficult to get on single line. inline type doesn't do it. Was just as easy to use flask.request. Used pytest rather than unittest.
 - *Day 64* - movie-project. More SQL Alchemy and CRUD, but also using an api that returns json. Mapped json data to the Movie record object. Trying to figure out the tests for this has been much harder than the project proper. Will have to work on learning how to run tests against flask apps separately. Maybe what I had been doing with selenium tests was appropriate? Will have to work through [Miguel Grinberg's tutorial.](https://blog.miguelgrinberg.com/post/how-to-write-unit-tests-in-python-part-3-web-applications) and/or the [testdriven tutorial](https://testdriven.io/blog/flask-pytest/)
 - *Day 65* - web design. The Mutiny. Design a hotel site on Canva. [Mine is here:](https://www.canva.com/design/DAFKY24CHZI/Prvrfq0PYSf1PL5L_xKw7w/view?website#1). Mobile should definitely use [scroll site](https://www.canva.com/design/DAFKY24CHZI/Prvrfq0PYSf1PL5L_xKw7w/view?website#2:home) rather than menu. Think I would need to have the colors in the photos blend in together more though.
 - *Day 66* - cafe-api. Create a simple api for listing, adding, updating, and deleting cafes from a database. Used postman for testing and automatic documentation.
@@ -59,6 +59,5 @@ Many of the project days take longer than one hour, day, etc. I guess that means
 - *Day 74* - "Data science". Google data trends.  More Matplotlib. Downloaded own search trend data and FRED Unemployment data, and merged to create updated analysis.
 - *Day 75* - Using plotly with pandas. Analysis of Google App store trends, etc.
 - *Day 76* - Numpy, linear algebra, numpy broadcasting, matrix multiplication, and Image processing. Used Matplotlib imshow. I think I went more into Pillow (PIL) than was intended.
-- *Day 77* - SciPy and Seaborn 
-- *Day 78* - 
-
+- *Day 77* - SciPy and Seaborn. More about query/selecting rows using .loc and .query. Learned that the `[[column]]` is not really a special pandas syntax trick, but the result of passing a list of column names (even a list of one) to the single-bracket selector. This returns a dataframe rather than a Series, which you get if you just reference the column. There must be a lot more to Seaborn that we didn't get - has to be more than just a series of default themes? Also just scratched surface with SciPy linear regression.
+- *Day 78* -
