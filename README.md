@@ -60,4 +60,4 @@ Many of the project days take longer than one hour, day, etc. I guess that means
 - *Day 75* - Using plotly with pandas. Analysis of Google App store trends, etc.
 - *Day 76* - Numpy, linear algebra, numpy broadcasting, matrix multiplication, and Image processing. Used Matplotlib imshow. I think I went more into Pillow (PIL) than was intended.
 - *Day 77* - SciPy and Seaborn. More about query/selecting rows using .loc and .query. Learned that the `[[column]]` is not really a special pandas syntax trick, but the result of passing a list of column names (even a list of one) to the single-bracket selector. This returns a dataframe rather than a Series, which you get if you just reference the column. There must be a lot more to Seaborn that we didn't get - has to be more than just a series of default themes? Also just scratched surface with SciPy linear regression.
-- *Day 78* -
+- *Day 78* - "Nobel Prize Analysis". More involved graphing using matplotlib and plotly express. So easy to forget the apis of pandas, plotly, and matplotlib, and the documentation is not so easy to understand or navigate. Whine, moan.
