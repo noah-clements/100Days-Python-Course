@@ -63,4 +63,4 @@ Many of the project days take longer than one hour, day, etc. I guess that means
 - *Day 78* - "Nobel Prize Analysis". More involved graphing using matplotlib and plotly express. So easy to forget the apis of pandas, plotly, and matplotlib, and the documentation is not so easy to understand or navigate. Whine, moan.
     - Reviewed donut and bar charts with plotly; Pandas `.groupby()`, `value_counts()`, `.agg()`, and `.merge()`.
     - Learned chloropleth (I'm not sure I remember it now), sunburst charts (very cool), box plots, `.regplot()` and `.lmplot()` from Seaborn 
-
+- *Day 79* - Dr. Semmelweis - Vienna Hospital data exploration. SciPy, Pandas.
