@@ -64,4 +64,5 @@ Many of the project days take longer than one hour, day, etc. I guess that means
     - Reviewed donut and bar charts with plotly; Pandas `.groupby()`, `value_counts()`, `.agg()`, and `.merge()`.
     - Learned chloropleth (I'm not sure I remember it now), sunburst charts (very cool), box plots, `.regplot()` and `.lmplot()` from Seaborn 
 - *Day 79* - Dr. Semmelweis - Vienna Hospital data exploration. SciPy, Pandas. MatPlotLib. Compare data for two clinics, hypothesize based on handwashing, show decrease in deaths.
-- *Day 80* - Multivariable regression analysis. Using Boston real estate data from the 70s.
+- *Day 80* - Multivariable regression analysis. Using Boston real estate data from the 70s.Scikit-learn Linear Regressions, Seaborn, plotly.
+- *Day 81* -
