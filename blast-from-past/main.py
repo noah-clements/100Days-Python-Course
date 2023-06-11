@@ -1,10 +1,11 @@
 import datetime
-from bs4 import BeautifulSoup
+
 import requests
-import pprint  
-import toml
 import spotipy
+import toml
 from spotipy.oauth2 import SpotifyOAuth
+
+from bs4 import BeautifulSoup
 
 URL = "https://www.billboard.com/charts/hot-100/"
 format = "%Y-%m-%d"
@@ -85,5 +86,7 @@ playlist_id = playlist['uri']
 print(playlist_id)
 sp.playlist_add_items(playlist_id, uris)
 # print(sp)
+
+
 
 
